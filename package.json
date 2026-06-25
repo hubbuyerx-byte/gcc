@@ -1,0 +1,11 @@
+{
+  "name": "ai-video-bootcamp-gcc",
+  "version": "1.0.0",
+  "description": "AI Video Bootcamp for GCC with Stripe Checkout integration",
+  "dependencies": {
+    "stripe": "^14.22.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

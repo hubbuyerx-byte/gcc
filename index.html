@@ -1,0 +1,2676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>AIBootcamp — Learn AI Skills &amp; Build a Creative Business in the GCC</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Master AI-driven content creation with the #1 AI Creative Course in the GCC. Learn practical skills to build a freelance or creative business using AI tools.">
+    <meta property="og:title" content="AIBootcamp — Learn AI Skills &amp; Build a Creative Business in the GCC">
+    <meta property="og:description"
+        content="Join the AI revolution. Learn how to leverage AI tools to build a creative freelance business. Results vary — see earnings disclaimer.">
+    <meta property="og:image" content="assets/img/og-image.png">
+    <meta property="og:url" content="https://aibootcamp.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="google-site-verification" content="wre89SqR5Fnt4JQpHl5yZZeKsdcE6XsbhHqiT6h4eDY" />
+
+    <!-- Google Tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18059473078"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-18059473078', { 'allow_enhanced_conversions': true });
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            }; if (!f._fbq) f._fbq = n;
+            n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1622955485439618');
+    </script>
+    <!-- TikTok Pixel Code -->
+    <script>
+        !function (w, d, t) {
+            w.TiktokAnalyticsObject = t; var ttq = w[t] = w[t] || []; ttq.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie", "disableCookie", "holdConsent", "revokeConsent", "grantConsent"], ttq.setAndDefer = function (t, e) { t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } }; for (var i = 0; i < ttq.methods.length; i++)ttq.setAndDefer(ttq, ttq.methods[i]); ttq.instance = function (t) {
+                for (
+                    var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++)ttq.setAndDefer(e, ttq.methods[n]); return e
+            }, ttq.load = function (e, n) {
+                var r = "https://analytics.tiktok.com/i18n/pixel/events.js", o = n && n.partner; ttq._i = ttq._i || {}, ttq._i[e] = [], ttq._i[e]._u = r, ttq._t = ttq._t || {}, ttq._t[e] = +new Date, ttq._o = ttq._o || {}, ttq._o[e] = n || {}; n = document.createElement("script")
+                    ; n.type = "text/javascript", n.async = !0, n.src = r + "?sdkid=" + e + "&lib=" + t; e = document.getElementsByTagName("script")[0]; e.parentNode.insertBefore(n, e)
+            };
+            ttq.load('D825I1JC77U9B8E8SBI0');
+            ttq.page();
+        }(window, document, 'ttq');
+    </script>
+    <script src="assets/js/capi-bridge.js?v=1.0.5"></script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1622955485439618&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            if (window.CAPIBridge) {
+                CAPIBridge.pageView();
+                setTimeout(function () { CAPIBridge.viewContent(); }, 500);
+            }
+        });
+    </script>
+    <link rel="stylesheet" href="assets/css/main.css?v=1.0.7">
+    <style>
+        /* ── Google Ads Compliance Styles ── */
+        .hero-disclaimer {
+            background: rgba(249, 115, 22, 0.06);
+            border: 1px solid rgba(249, 115, 22, 0.2);
+            border-radius: 8px;
+            padding: 10px 16px;
+            font-size: 0.78rem;
+            color: #8890b8;
+            max-width: 680px;
+            margin: 16px auto 0;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        .hero-disclaimer strong {
+            color: #e8eaf6;
+        }
+
+        .hero-disclaimer a {
+            color: #F97316;
+            text-decoration: underline;
+        }
+
+        .footer-disclaimer {
+            background: rgba(255, 255, 255, 0.025);
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 20px 24px;
+            font-size: 0.75rem;
+            color: #5a6080;
+            line-height: 1.7;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .footer-disclaimer strong {
+            color: #6a7090;
+        }
+
+        .footer-disclaimer a {
+            color: #F97316;
+            text-decoration: none;
+        }
+
+        .footer-disclaimer a:hover {
+            text-decoration: underline;
+        }
+
+        /* ── Sticky CTA Bar for Mobile ── */
+        .sticky-cta-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(8, 8, 16, 0.95);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 12px 24px;
+            z-index: 9999;
+            transform: translateY(0);
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.5);
+            display: none;
+        }
+
+        .sticky-cta-bar.hidden {
+            transform: translateY(100%);
+        }
+
+        @media (max-width: 768px) {
+            .sticky-cta-bar {
+                display: block;
+            }
+            /* Adjust floating WhatsApp button bottom padding to avoid covering the sticky bar */
+            .wa-float {
+                bottom: 84px !important;
+                right: 16px !important;
+            }
+            /* Align social proof notification to sit side-by-side with WhatsApp float and avoid overlapping */
+            .sp-notify {
+                bottom: 84px !important;
+                left: 16px !important;
+                right: 84px !important;
+                max-width: calc(100% - 100px) !important;
+                transform: translateY(200%) !important;
+            }
+            .sp-notify.active {
+                transform: translateY(0) !important;
+            }
+        }
+
+        .sticky-cta-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 600px;
+            margin: 0 auto;
+            gap: 16px;
+        }
+
+        .sticky-cta-text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .sticky-cta-price {
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: #F97316;
+        }
+
+        .sticky-cta-label {
+            font-size: 0.7rem;
+            color: #8890b8;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .sticky-cta-btn {
+            flex-grow: 1;
+            text-align: center;
+            background: #F97316;
+            color: #fff;
+            font-size: 0.85rem;
+            font-weight: 800;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 15px rgba(249, 115, 22, 0.25);
+            white-space: nowrap;
+        }
+
+        .sticky-cta-btn:active {
+            transform: scale(0.97);
+            background: #e05e00;
+        }
+
+        /* ── Above the Fold CRO Optimizations ── */
+        .hero-sub {
+            font-size: 1.1rem;
+            color: #8890b8;
+            max-width: 720px;
+            margin: 1rem auto 1.75rem;
+            line-height: 1.65;
+            font-weight: 400;
+        }
+
+        .hero-accent {
+            color: #F97316;
+        }
+
+        .hero-sub-accent {
+            font-size: clamp(16px, 3vw, 28px);
+            font-weight: 700;
+            color: #F97316;
+            text-align: center;
+            margin: 0.75rem auto 1.25rem;
+            line-height: 1.9;
+            text-shadow: 0 0 30px rgba(249, 115, 22, 0.3);
+            max-width: 700px;
+        }
+
+        .hero-trust-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 1.25rem;
+        }
+
+        .hero-avatars {
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-avatar {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            border: 2px solid #05050a;
+            margin-left: -10px;
+            background: #111;
+            object-fit: cover;
+        }
+
+        .hero-avatar:first-child {
+            margin-left: 0;
+        }
+
+        .hero-trust-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 2px;
+            text-align: left;
+        }
+
+        .hero-trust-rating {
+            font-size: 0.82rem;
+            font-weight: 800;
+            color: #e8eaf6;
+            line-height: 1.2;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .hero-trust-stars {
+            color: #F97316;
+            letter-spacing: -0.5px;
+            font-size: 0.78rem;
+        }
+
+        .hero-trust-count {
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: #8890b8;
+            line-height: 1.2;
+        }
+        
+        .hero-trust-count span {
+            color: #34d399;
+            font-weight: 700;
+        }
+
+
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 55px 14px 15px !important;
+            }
+            .title-wrap {
+                margin-top: 0.25rem !important;
+                margin-bottom: 0.25rem !important;
+            }
+            .hero h1 {
+                font-size: 26px !important;
+                line-height: 1.2 !important;
+                letter-spacing: -0.8px !important;
+            }
+            .hero-sub {
+                font-size: 0.85rem !important;
+                margin: 0.4rem auto 0.6rem !important;
+                padding: 0 6px;
+                line-height: 1.45 !important;
+            }
+            .hero-sub-accent {
+                font-size: 15px !important;
+                margin: 0.4rem auto 0.5rem !important;
+                line-height: 1.6 !important;
+            }
+            .hero-trust-row {
+                margin-top: 0.5rem !important;
+                margin-bottom: 0.2rem !important;
+            }
+
+            .sp-notify {
+                font-size: 0.72rem !important;
+                padding: 10px 14px !important;
+            }
+        }
+
+        /* ── Student Work Showcase ── */
+        .work-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+            margin-top: 32px;
+            text-align: left;
+        }
+
+        @media (min-width: 1024px) {
+            .work-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        .work-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 14px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .work-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(249, 115, 22, 0.3);
+        }
+
+        .work-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .work-card-user {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .work-user-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 0.85rem;
+            color: #fff;
+        }
+
+        .work-user-info {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+        }
+
+        .work-user-name {
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: #e8eaf6;
+        }
+
+        .work-post-time {
+            font-size: 0.65rem;
+            color: #8890b8;
+        }
+
+        .work-category {
+            color: #F97316;
+            font-weight: 600;
+        }
+
+        .work-card-body {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            flex-grow: 1;
+        }
+
+        .work-post-title {
+            font-size: 0.88rem;
+            font-weight: 800;
+            color: #fff;
+            margin: 0;
+        }
+
+        .work-post-text {
+            font-size: 0.76rem;
+            color: #a4abbd;
+            line-height: 1.4;
+            margin: 0;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .work-image-wrap {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 4/3;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #111;
+            margin-top: 4px;
+        }
+
+        .work-post-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .work-card:hover .work-post-image {
+            transform: scale(1.05);
+        }
+
+        .work-tag-badge {
+            position: absolute;
+            bottom: 8px;
+            left: 8px;
+            background: rgba(8, 8, 16, 0.85);
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #34d399;
+            font-size: 0.62rem;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+
+        .work-card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 10px;
+            margin-top: auto;
+        }
+
+        .work-meta {
+            display: flex;
+            gap: 10px;
+        }
+
+        .work-meta-item {
+            font-size: 0.68rem;
+            color: #8890b8;
+        }
+
+        .work-verified {
+            font-size: 0.65rem;
+            font-weight: 800;
+            color: #34d399;
+        }
+
+        .work-footer {
+            text-align: center;
+            margin-top: 36px;
+        }
+
+        .work-footer p {
+            font-size: 0.85rem;
+            color: #8890b8;
+            margin-bottom: 16px;
+        }
+
+        /* ── Before vs After Section ── */
+        .tf-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 32px;
+            margin-top: 40px;
+        }
+        @media (min-width: 768px) {
+            .tf-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 40px;
+            }
+        }
+        .tf-card {
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 16px;
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            text-align: left;
+        }
+        .tf-card.before {
+            border: 1px solid rgba(239, 68, 68, 0.15);
+            background: linear-gradient(180deg, rgba(239, 68, 68, 0.02) 0%, rgba(255, 255, 255, 0.01) 100%);
+        }
+        .tf-card.after {
+            border: 1px solid rgba(52, 211, 153, 0.2);
+            background: linear-gradient(180deg, rgba(52, 211, 153, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+            box-shadow: 0 0 25px rgba(52, 211, 153, 0.05);
+        }
+        .tf-card-title {
+            font-size: 1.1rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin: 0 0 4px 0;
+        }
+        .tf-card.before .tf-card-title {
+            color: #fca5a5;
+        }
+        .tf-card.after .tf-card-title {
+            color: #34d399;
+        }
+        .tf-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .tf-item {
+            font-size: 0.88rem;
+            line-height: 1.5;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            color: #d1d5db;
+        }
+        .tf-icon {
+            font-size: 1.05rem;
+            font-weight: 800;
+            flex-shrink: 0;
+            margin-top: 1px;
+            line-height: 1;
+        }
+        .tf-card.before .tf-icon {
+            color: #ef4444;
+        }
+        .tf-card.after .tf-icon {
+            color: #34d399;
+        }
+
+        /* ── Testimonial Wall (Masonry) ── */
+        .tw-section {
+            padding: 80px 28px;
+            background: var(--bg);
+        }
+        .tw-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .tw-label {
+            text-transform: uppercase;
+            font-size: 0.72rem;
+            font-weight: 800;
+            letter-spacing: 2.5px;
+            color: var(--or);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .tw-label::before {
+            content: '';
+            width: 28px;
+            height: 2px;
+            background: var(--or);
+            display: inline-block;
+        }
+        .tw-heading {
+            font-size: clamp(1.8rem, 4vw, 2.8rem);
+            font-weight: 900;
+            color: #fff;
+            line-height: 1.15;
+            margin-bottom: 48px;
+            letter-spacing: -0.5px;
+        }
+        .tw-heading em {
+            font-style: italic;
+            color: var(--or);
+            position: relative;
+        }
+        .tw-heading em::after {
+            content: '';
+            position: absolute;
+            bottom: 2px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--or);
+            border-radius: 2px;
+            opacity: 0.4;
+        }
+
+        /* Masonry Grid */
+        .tw-masonry {
+            columns: 3;
+            column-gap: 20px;
+        }
+        @media (max-width: 1024px) {
+            .tw-masonry { columns: 2; }
+        }
+        @media (max-width: 640px) {
+            .tw-masonry { columns: 1; }
+            .tw-section { padding: 48px 16px; }
+            .tw-heading { margin-bottom: 32px; }
+        }
+
+        /* Individual Testimonial Card */
+        .tw-card {
+            break-inside: avoid;
+            margin-bottom: 20px;
+            background: rgba(255, 255, 255, 0.025);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 14px;
+            overflow: hidden;
+            transition: border-color 0.25s ease, transform 0.25s ease;
+        }
+        .tw-card:hover {
+            border-color: rgba(249, 115, 22, 0.25);
+            transform: translateY(-3px);
+        }
+
+        /* Card with screenshot image */
+        .tw-card-img {
+            width: 100%;
+            display: block;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        /* Card with text content (no image) */
+        .tw-card-body {
+            padding: 20px;
+        }
+        .tw-card-user {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+        .tw-card-avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 0.82rem;
+            color: #fff;
+            flex-shrink: 0;
+        }
+        .tw-card-avatar img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .tw-card-name {
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: #e8eaf6;
+            line-height: 1.2;
+        }
+        .tw-card-handle {
+            font-size: 0.65rem;
+            color: var(--muted);
+        }
+        .tw-card-title {
+            font-size: 0.92rem;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+        .tw-card-text {
+            font-size: 0.78rem;
+            color: #a4abbd;
+            line-height: 1.55;
+            margin: 0;
+        }
+        .tw-card-text strong {
+            color: #e8eaf6;
+        }
+        .tw-card-footer {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 14px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .tw-card-meta {
+            font-size: 0.68rem;
+            color: var(--muted);
+        }
+        .tw-card-emoji {
+            font-size: 1.1rem;
+        }
+        .tw-card-tag {
+            font-size: 0.6rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border-radius: 4px;
+            background: rgba(249, 115, 22, 0.1);
+            color: var(--or);
+            letter-spacing: 0.5px;
+        }
+        .tw-card-highlight {
+            border-color: rgba(249, 115, 22, 0.2);
+            background: rgba(249, 115, 22, 0.03);
+        }
+        .tw-card-highlight:hover {
+            border-color: rgba(249, 115, 22, 0.4);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="prog"></div>
+
+    <nav>
+        <a href="./" class="nav-logo"><span>AI</span>Bootcamp</a>
+        <div class="nav-r">
+            <div class="nav-spots">🔥 <em>3</em>&nbsp;spots left&nbsp;
+                <div class="spots-bar">
+                    <div class="spots-fill"></div>
+                </div>
+            </div>
+            <button class="btn-nav" onclick="window.location.href='/checkout'">Enroll Now →</button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="h-bg">
+            <div class="h-orb1"></div>
+            <div class="h-orb2"></div>
+            <div class="h-orb3"></div>
+            <div class="h-grid"></div>
+        </div>
+        <div class="hero-inner">
+
+            <!-- Badge -->
+            <div class="hero-badge">
+                <div class="bdot"></div><span class="badge-t">⚡ Gulf's #1 AI Creative Course</span>
+            </div>
+
+            <!-- Student Trust Bubble -->
+            <div class="hero-trust-row">
+                <div class="hero-avatars">
+                    <img class="hero-avatar" src="assets/img/avatar-1.png" alt="Student Avatar 1">
+                    <img class="hero-avatar" src="assets/img/avatar-2.png" alt="Student Avatar 2">
+                    <img class="hero-avatar" src="assets/img/avatar-3.png" alt="Student Avatar 3">
+                </div>
+                <div class="hero-trust-info">
+                    <div class="hero-trust-rating">
+                        <span class="hero-trust-stars">⭐⭐⭐⭐⭐</span>
+                        <span>4.9/5 Student Rating</span>
+                    </div>
+                    <div class="hero-trust-count">Joined by <span>297 Creators</span></div>
+                </div>
+            </div>
+
+            <!-- Title — Punchy Rule of Three -->
+            <div class="title-wrap">
+                <h1 class="vsl-pre">Start Tonight. <span class="hero-accent">One AI Skill.</span> Earn Premium Rates.</h1>
+            </div>
+
+            <!-- Pattern Interrupt -->
+            <p class="hero-sub-accent">Stop scrolling. Learn the skill that pays you premium rates.</p>
+
+            <p class="hero-sub">297 Creators — students, freelancers, and professionals — are already creating AI content from their phones and getting paid premium rates. No camera. No tech skills needed.</p>
+
+
+            <!-- Primary CTA — fast lane for warm traffic -->
+            <div class="hero-cta" style="margin-top:1.25rem;margin-bottom:0.5rem;">
+                <a href="/checkout" class="btn-p">Enroll Now — Secure Your Spot →</a>
+            </div>
+
+            <!-- Testimonial directly below CTA — 59% CVR lift (Hubstaff data) -->
+            <div style="max-width:480px;margin:0.75rem auto;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:12px 16px;display:flex;align-items:center;gap:12px;">
+                <div style="min-width:36px;width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#F97316,#ea580c);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:0.82rem;color:#fff;">A</div>
+                <div style="flex:1;">
+                    <div style="font-size:0.78rem;color:#e8eaf6;line-height:1.4;"><strong>Ahmed K.</strong> from Dubai earned <strong style="color:#F97316;">£1,200</strong> from a UK brand deal in week 9.*</div>
+                    <div style="font-size:0.65rem;color:#8890b8;margin-top:2px;">Verified student · Results vary</div>
+                </div>
+            </div>
+
+            <p style="font-size:0.82rem;color:#8890b8;text-align:center;margin:0 0 1.5rem;">or browse our best student creations below</p>
+
+            <!-- Subtle divider -->
+            <div class="vsl-watch-prompt">See What You Will Learn to Create</div>
+
+            <!-- Slider Header Row -->
+            <div class="slider-header-row">
+                <div class="slider-header-left">
+                    <span class="vsl-note-dot" style="background:#22C55E;box-shadow:0 0 8px #22C55E;"></span>
+                    <span style="font-size:0.75rem;font-weight:700;color:#e8eaf6;text-transform:uppercase;letter-spacing:1px;">Live Showcase · Muted for autoplay</span>
+                </div>
+                <div class="slider-nav-btns">
+                    <button class="slider-nav-btn prev-btn" id="slidePrev" aria-label="Previous Slide">
+                        <svg viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+                    </button>
+                    <button class="slider-nav-btn next-btn" id="slideNext" aria-label="Next Slide">
+                        <svg viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Slider Container -->
+            <div class="slider-outer-glow">
+                <div class="slider-viewport">
+                    <div class="slider-track" id="sliderTrack">
+                        
+                        <!-- Card 1: Car Commercial -->
+                        <div class="slider-card">
+                            <div class="slider-media-wrap">
+                                <video class="slider-video" src="assets/img/showcase/clip-car.mp4" data-src="assets/img/showcase/clip-car.mp4" autoplay preload="auto" muted loop playsinline></video>
+                                <div class="slider-card-overlay">
+                                    <span class="slider-card-badge">Cinematic Car Ad</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Skincare Campaign -->
+                        <div class="slider-card">
+                            <div class="slider-media-wrap">
+                                <video class="slider-video" data-src="assets/img/showcase/clip-skincare.mp4" preload="none" muted loop playsinline></video>
+                                <div class="slider-card-overlay">
+                                    <span class="slider-card-badge">Skincare Product Campaign</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3: AI Secret Reveal -->
+                        <div class="slider-card">
+                            <div class="slider-media-wrap">
+                                <video class="slider-video" data-src="assets/img/showcase/clip-ai-secret.mp4" preload="none" muted loop playsinline></video>
+                                <div class="slider-card-overlay">
+                                    <span class="slider-card-badge">Faceless AI Influencer</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 4: WhatsApp Automation -->
+                        <div class="slider-card">
+                            <div class="slider-media-wrap">
+                                <video class="slider-video" data-src="assets/img/showcase/clip-whatsapp.mp4" preload="none" muted loop playsinline></video>
+                                <div class="slider-card-overlay">
+                                    <span class="slider-card-badge">WhatsApp System Demo</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 5: Studio Speaker -->
+                        <div class="slider-card">
+                            <div class="slider-media-wrap">
+                                <video class="slider-video" data-src="assets/img/showcase/clip-studio-man.mp4" preload="none" muted loop playsinline></video>
+                                <div class="slider-card-overlay">
+                                    <span class="slider-card-badge">AI Avatar Host</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 6: AI Marketing Services -->
+                        <div class="slider-card">
+                            <div class="slider-media-wrap">
+                                <video class="slider-video" data-src="assets/img/showcase/clip-ai-services.mp4" preload="none" muted loop playsinline></video>
+                                <div class="slider-card-overlay">
+                                    <span class="slider-card-badge">AI Agency Ad</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 7: Home Vlogger -->
+                        <div class="slider-card">
+                            <div class="slider-media-wrap">
+                                <video class="slider-video" data-src="assets/img/showcase/clip-vlogging.mp4" preload="none" muted loop playsinline></video>
+                                <div class="slider-card-overlay">
+                                    <span class="slider-card-badge">Social Media Vlog</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Below Slider Disclaimer -->
+            <div class="slider-caption-row">
+                <span class="slider-caption-label">💡 All videos shown are generated 100% using tools taught inside the bootcamp.</span>
+            </div>
+
+            <!-- CTA -->
+            <div class="hero-cta">
+                <a href="/checkout" class="btn-p">I Want This Skill →</a>
+                <a href="#modules" class="btn-s">See Modules ↓</a>
+            </div>
+
+            <!-- Trust pills -->
+            <div class="hero-vps">
+                <div class="hvp">✓ Student example: £1,200 UK brand deal*</div>
+                <div class="hvp">✓ Only 3 spots left at launch price</div>
+                <div class="hvp">✓ No experience needed</div>
+            </div>
+
+            <!-- Stats -->
+            <div class="hstats">
+                <div class="hs"><span class="hs-n">$15K</span><span class="hs-l">Top Example*</span></div>
+                <div class="hs"><span class="hs-n">9</span><span class="hs-l">Modules</span></div>
+                <div class="hs"><span class="hs-n">2 Hrs</span><span class="hs-l">First Result</span></div>
+                <div class="hs"><span class="hs-n">50 AED</span><span class="hs-l">Today Only</span></div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="urg">
+        <div class="urg-ticker" id="urgTicker">
+            <div class="urg-item">⚡ Intro Price: <strong>50 AED Only</strong></div>
+            <div class="urg-item"><span>|</span>🔥 <strong>Only 3 of 300 Launch Spots Left</strong></div>
+            <div class="urg-item"><span>|</span>📈 Price goes up <strong>after 300 students</strong></div>
+            <div class="urg-item"><span>|</span>🎁 <strong>Free Client Ebook Included</strong></div>
+            <div class="urg-item"><span>|</span>⚡ Intro Price: <strong>50 AED Only</strong></div>
+            <div class="urg-item"><span>|</span>🔥 <strong>Only 3 of 300 Launch Spots Left</strong></div>
+            <div class="urg-item"><span>|</span>📈 Price goes up <strong>after 300 students</strong></div>
+            <div class="urg-item"><span>|</span>🎁 <strong>Free Client Ebook Included</strong></div>
+        </div>
+    </div>
+
+    <!-- Student Work Showcase (Moved Up) -->
+    <section class="sec">
+        <div class="si ctr">
+            <span class="slabel rv">Student Work Showcase</span>
+            <h2 class="stitle rv">See What Our Students Are Creating Inside</h2>
+            <p class="ssub rv">Real posts and actual designs generated by students inside our private Skool community using these exact AI tools.</p>
+            
+            <div class="work-grid">
+                <!-- Card 1 -->
+                <div class="work-card rv">
+                    <div class="work-card-header">
+                        <div class="work-card-user">
+                            <div class="work-user-avatar" style="background: #ea580c;">A</div>
+                            <div class="work-user-info">
+                                <span class="work-user-name">Asif Khan</span>
+                                <span class="work-post-time">17h ago · <span class="work-category">#ShowYourWork</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card-body">
+                        <h4 class="work-post-title">#MyCampaign</h4>
+                        <p class="work-post-text">new Campaign generated please rate my work</p>
+                        <div class="work-image-wrap">
+                            <img class="work-post-image" src="assets/img/work-dove.png" alt="AI Dove Soap Campaign by Asif Khan">
+                            <span class="work-tag-badge">AI Product Shoot</span>
+                        </div>
+                    </div>
+                    <div class="work-card-footer">
+                        <div class="work-meta">
+                            <span class="work-meta-item">👍 3</span>
+                            <span class="work-meta-item">💬 8 comments</span>
+                        </div>
+                        <span class="work-verified">✓ Earning Verified</span>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="work-card rv">
+                    <div class="work-card-header">
+                        <div class="work-card-user">
+                            <div class="work-user-avatar" style="background: #2563eb;">H</div>
+                            <div class="work-user-info">
+                                <span class="work-user-name">Hasnain Mukhtiar</span>
+                                <span class="work-post-time">6h ago · <span class="work-category">#ShowYourWork</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card-body">
+                        <h4 class="work-post-title">My Character #mycharacter</h4>
+                        <p class="work-post-text">Consistent portrait generated with Google flow / 7-Pillar prompt formula.</p>
+                        <div class="work-image-wrap">
+                            <img class="work-post-image" src="assets/img/work-suit.png" alt="Consistent AI Character by Hasnain Mukhtiar">
+                            <span class="work-tag-badge">Ultra-Realistic Character</span>
+                        </div>
+                    </div>
+                    <div class="work-card-footer">
+                        <div class="work-meta">
+                            <span class="work-meta-item">👍 1</span>
+                            <span class="work-meta-item">💬 1 comment</span>
+                        </div>
+                        <span class="work-verified">✓ Character Match</span>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="work-card rv">
+                    <div class="work-card-header">
+                        <div class="work-card-user">
+                            <div class="work-user-avatar" style="background: #16a34a;">W</div>
+                            <div class="work-user-info">
+                                <span class="work-user-name">Wajiha Osama</span>
+                                <span class="work-post-time">1d ago · <span class="work-category">#ShowYourWork</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card-body">
+                        <h4 class="work-post-title">First project module 2</h4>
+                        <p class="work-post-text">#Prompt Like a Pro - Consistent character in cafe lighting setup.</p>
+                        <div class="work-image-wrap">
+                            <img class="work-post-image" src="assets/img/work-cafe.png" alt="AI Cafe Character by Wajiha Osama">
+                            <span class="work-tag-badge">Studio Lighting</span>
+                        </div>
+                    </div>
+                    <div class="work-card-footer">
+                        <div class="work-meta">
+                            <span class="work-meta-item">👍 1</span>
+                            <span class="work-meta-item">💬 2 comments</span>
+                        </div>
+                        <span class="work-verified">✓ Prompt Mastery</span>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="work-card rv">
+                    <div class="work-card-header">
+                        <div class="work-card-user">
+                            <div class="work-user-avatar" style="background: #7c3aed;">A</div>
+                            <div class="work-user-info">
+                                <span class="work-user-name">Asif Khan</span>
+                                <span class="work-post-time">2d ago · <span class="work-category">#ShowYourWork</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card-body">
+                        <h4 class="work-post-title">#MyCampaign</h4>
+                        <p class="work-post-text">campaign for a beauty cream - product photography</p>
+                        <div class="work-image-wrap">
+                            <img class="work-post-image" src="assets/img/work-cream.png" alt="AI Skincare Campaign by Asif Khan">
+                            <span class="work-tag-badge">Product Placement</span>
+                        </div>
+                    </div>
+                    <div class="work-card-footer">
+                        <div class="work-meta">
+                            <span class="work-meta-item">👍 1</span>
+                            <span class="work-meta-item">💬 1 comment</span>
+                        </div>
+                        <span class="work-verified">✓ Earning Verified</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="work-footer rv">
+                <p>Join the private community and start creating high-ticket visual campaigns tonight.</p>
+                <a href="/checkout" class="btn-big">I Want to Learn This →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Income Potential -->
+    <section class="sec" style="background:var(--bg2)">
+        <div class="si ctr">
+            <span class="slabel rv">Income Potential</span>
+            <h2 class="stitle rv">What Students Can Earn With These Skills*</h2>
+            <p class="ssub rv">Examples of how students are applying these skills to build income. <strong
+                    style="color:var(--or);font-size:0.85em">*These are individual examples, not typical results. Most
+                    earn less.</strong></p>
+            <div class="opp-grid">
+                <div class="oc rv">
+                    <div class="oc-amt">$300 to $800</div>
+                    <div class="oc-range">Per Package · 1,100 AED to 2,900 AED</div>
+                    <div class="oc-label">AI Product Photography</div>
+                    <div class="oc-desc">Brands need product photos for Instagram, Amazon, and ads. You deliver 15 to 20
+                        polished AI product images. No studio, no photographer required.</div>
+                    <div class="oc-bullets">
+                        <div class="oc-b">→ 15 to 20 product images per package</div>
+                        <div class="oc-b">→ Completed in a single afternoon</div>
+                        <div class="oc-b">→ Ecommerce brands, local and international</div>
+                    </div>
+                    <div class="oc-time">⏱ Possible from Week 3</div>
+                </div>
+                <div class="oc rv">
+                    <div class="oc-amt">$500 to $2,000</div>
+                    <div class="oc-range">Per Campaign · 1,800 AED to 7,300 AED</div>
+                    <div class="oc-label">UGC Talking Ad Videos</div>
+                    <div class="oc-desc">Brands pay per video ad campaign. You create 3 to 5 talking AI character videos
+                        that promote their product. Real voice, perfect lip sync, zero filming.</div>
+                    <div class="oc-bullets">
+                        <div class="oc-b">→ 3 to 5 talking video ads per campaign</div>
+                        <div class="oc-b">→ AI voice and lip sync, no recording needed</div>
+                        <div class="oc-b">→ US and UK brands pay $500 to $2,000 per set</div>
+                    </div>
+                    <div class="oc-time">⏱ Possible from Week 5</div>
+                </div>
+                <div class="oc feat rv">
+                    <div class="oc-amt">$1,000 to $5,000</div>
+                    <div class="oc-range">Per Month · 3,600 AED to 18,000 AED</div>
+                    <div class="oc-label">Monthly Brand Retainer</div>
+                    <div class="oc-desc">One brand signs you for ongoing monthly AI content: reels, product ads,
+                        influencer visuals. Recurring income without hunting for new clients every month.</div>
+                    <div class="oc-bullets">
+                        <div class="oc-b">→ Monthly content contract with one brand</div>
+                        <div class="oc-b">→ 2 to 3 retainers = full-time income</div>
+                        <div class="oc-b">→ GCC start: 3,000 to 8,000 AED/month</div>
+                    </div>
+                    <div class="oc-time">⏱ Possible from Month 2</div>
+                </div>
+                <div class="oc rv">
+                    <div class="oc-amt">$2,000 to $15,000</div>
+                    <div class="oc-range">Per Month · 7,300 AED to 55,000 AED</div>
+                    <div class="oc-label">Faceless AI Influencer</div>
+                    <div class="oc-desc">Build a faceless page on Instagram or TikTok. Grow it with AI content. Earn
+                        from brand sponsorships, affiliate commissions, and your own digital products on autopilot.
+                    </div>
+                    <div class="oc-bullets">
+                        <div class="oc-b">→ No face, no camera, no filming ever</div>
+                        <div class="oc-b">→ Brand deals and affiliate and own products</div>
+                        <div class="oc-b">→ Multiple passive income streams at once</div>
+                    </div>
+                    <div class="oc-time">⏱ 3 to 6 months to full monetization</div>
+                </div>
+            </div>
+            <div class="roadmap rv">
+                <div class="rm-title">Your Action-Based Income Roadmap</div>
+                <div class="rm-track">
+                    <div class="rm-step">
+                        <div class="rm-marker rm-or">W1 to 2</div>
+                        <div class="rm-head">Setup and First Images</div>
+                        <div class="rm-body">Modules 1 to 3. Free tools, first character. Send 10 DMs using the ebook
+                            method.</div>
+                        <div class="rm-earn" style="color:var(--or)">Target: $100 to $500</div>
+                    </div>
+                    <div class="rm-step">
+                        <div class="rm-marker rm-bl">W3 to 5</div>
+                        <div class="rm-head">Products and Video</div>
+                        <div class="rm-body">Modules 4 to 6. Full product placements and cinematic animation. First
+                            paying client.</div>
+                        <div class="rm-earn" style="color:#4C8CE4">Target: $500 to $2,000</div>
+                    </div>
+                    <div class="rm-step">
+                        <div class="rm-marker rm-pu">W6 to 8</div>
+                        <div class="rm-head">Talking Ads and Influencer</div>
+                        <div class="rm-body">Modules 7 to 8. Launch faceless page. First talking UGC delivered. Second
+                            client.</div>
+                        <div class="rm-earn" style="color:#8B5CF6">Target: $2,000 to $5,000</div>
+                    </div>
+                    <div class="rm-step">
+                        <div class="rm-marker rm-gn">Month 1+</div>
+                        <div class="rm-head">Full Income Stack</div>
+                        <div class="rm-body">Multiple streams running. Retainer clients. Growing influencer page.</div>
+                        <div class="rm-earn" style="color:var(--gn)">Target: $5,000 to $15,000/mo</div>
+                    </div>
+                </div>
+            </div>
+            <div class="icta rv"><a href="/checkout" class="btn-big">Enroll Now →</a></div>
+        </div>
+    </section>
+
+    <!-- Testimonial Wall: What Members Are Saying -->
+    <section class="tw-section" id="testimonials">
+        <div class="tw-inner">
+            <div class="tw-label rv">What Members Are Saying</div>
+            <h2 class="tw-heading rv">Don't take our <em>word</em> for it</h2>
+
+            <div class="tw-masonry">
+
+                <!-- Screenshot: Tahir Zulfiqar – Perfume Ad Campaign -->
+                <div class="tw-card rv">
+                    <img class="tw-card-img" src="assets/img/community/ss-tahir-perfume.jpeg" alt="Tahir Zulfiqar – The Five Perfume Ad Campaign Scenes" loading="lazy">
+                </div>
+
+                <!-- Screenshot: Farrukh Noman – #myCharacter T-shirt Brand -->
+                <div class="tw-card rv">
+                    <img class="tw-card-img" src="assets/img/community/ss-farrukh.jpeg" alt="Farrukh Noman – AI Character for T-shirt Brand" loading="lazy">
+                </div>
+
+                <!-- Text: $800/mo Win -->
+                <div class="tw-card tw-card-highlight rv">
+                    <div class="tw-card-body">
+                        <div class="tw-card-user">
+                            <div class="tw-card-avatar" style="background:#f59e0b;">L</div>
+                            <div>
+                                <div class="tw-card-name">Luca Miranda</div>
+                                <div class="tw-card-handle">Member · AI Bootcamp</div>
+                            </div>
+                        </div>
+                        <div class="tw-card-title">✨ First Win — $800/month with AI Content 🎉</div>
+                        <p class="tw-card-text">A few months ago, I started creating AI-powered videos with one goal: turn creativity into real results.<br><br>Today, I'm working with a client on a <strong>$800/month retainer</strong> for AI video + content creation.</p>
+                        <div class="tw-card-footer">
+                            <span class="tw-card-meta">👍 22</span>
+                            <span class="tw-card-meta">💬 31 comments</span>
+                            <span class="tw-card-tag">$800/mo Win</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Screenshot: Zainab Mustafa – #MyCampaign Skincare -->
+                <div class="tw-card rv">
+                    <img class="tw-card-img" src="assets/img/community/ss-zainab.jpeg" alt="Zainab Mustafa – Skincare Product Campaign" loading="lazy">
+                </div>
+
+                <!-- Screenshot: Rana Tahir – Same Character 3 Locations -->
+                <div class="tw-card rv">
+                    <img class="tw-card-img" src="assets/img/community/ss-rana.jpeg" alt="Rana Tahir – Same Character at 3 Different Locations" loading="lazy">
+                </div>
+
+                <!-- Text: Going Viral -->
+                <div class="tw-card tw-card-highlight rv">
+                    <div class="tw-card-body">
+                        <div class="tw-card-user">
+                            <div class="tw-card-avatar" style="background:#7c3aed;">M</div>
+                            <div>
+                                <div class="tw-card-name">Mr Shadow</div>
+                                <div class="tw-card-handle">Member · AI Bootcamp</div>
+                            </div>
+                        </div>
+                        <div class="tw-card-title">🎉 MY IG REEL IS GOING VIRAL (24 HRS)</div>
+                        <p class="tw-card-text">✅ My latest Instagram reel just took off in under 24 hours!<br>📊 12,000+ views<br>📊 60+ new followers<br>📊 20+ new accounts reached</p>
+                        <div class="tw-card-footer">
+                            <span class="tw-card-meta">👍 8</span>
+                            <span class="tw-card-meta">💬 14 comments</span>
+                            <span class="tw-card-tag">Going Viral</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Screenshot: Shahid Rasheed – My Animation -->
+                <div class="tw-card rv">
+                    <img class="tw-card-img" src="assets/img/community/ss-shahid.jpeg" alt="Shahid Rasheed – AI Animation Video" loading="lazy">
+                </div>
+
+                <!-- Screenshot: Jamsher Khan – Jewelry Ad Commercial -->
+                <div class="tw-card rv">
+                    <img class="tw-card-img" src="assets/img/community/ss-jamsher.jpeg" alt="Jamsher Khan – Luxury Jewelry Ad Cinematic AI Commercial" loading="lazy">
+                </div>
+
+                <!-- Text: Best Community -->
+                <div class="tw-card rv">
+                    <div class="tw-card-body">
+                        <div class="tw-card-user">
+                            <div class="tw-card-avatar" style="background:#8b5cf6;">G</div>
+                            <div>
+                                <div class="tw-card-name">Gabriel Pomerino</div>
+                                <div class="tw-card-handle">Member · AI Bootcamp</div>
+                            </div>
+                        </div>
+                        <div class="tw-card-title">Best community to this date</div>
+                        <p class="tw-card-text">Over the years I have been part of many groups, forums, and online communities and this place is in the top 3 places I love to hang, interact and participate in.</p>
+                        <div class="tw-card-footer">
+                            <span class="tw-card-meta">👍 11</span>
+                            <span class="tw-card-meta">💬 9 comments</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Screenshot: Muhammad Ajmal – #Shadi hub.pk -->
+                <div class="tw-card rv">
+                    <img class="tw-card-img" src="assets/img/community/ss-ajmal.jpeg" alt="Muhammad Ajmal – Shadi hub.pk AI Campaign" loading="lazy">
+                </div>
+
+                <!-- Screenshot: Tahir Zulfiqar – Tribal Woman (7-Pillars Prompt) -->
+                <div class="tw-card rv">
+                    <img class="tw-card-img" src="assets/img/community/ss-tahir-tribal.jpeg" alt="Tahir Zulfiqar – 7-Pillars Prompt Demonstration" loading="lazy">
+                </div>
+
+                <!-- Text: 3.7M Views -->
+                <div class="tw-card tw-card-highlight rv">
+                    <div class="tw-card-body">
+                        <div class="tw-card-user">
+                            <div class="tw-card-avatar" style="background:#f97316;">M</div>
+                            <div>
+                                <div class="tw-card-name">Miklas Axelsy</div>
+                                <div class="tw-card-handle">Member · AI Bootcamp</div>
+                            </div>
+                        </div>
+                        <div class="tw-card-title">🎯 3rd Account Hits 3.7M Views!</div>
+                        <p class="tw-card-text">Hope this brings a smile to all of you 🥳 my 3rd account just went viral 🎬 This is a short win, but I'm so proud for all of you who have supported me.</p>
+                        <div class="tw-card-footer">
+                            <span class="tw-card-meta">👍 19</span>
+                            <span class="tw-card-meta">💬 27 comments</span>
+                            <span class="tw-card-tag">3.7M Views</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Screenshot: Shadi hub.pk Storyboard Grid -->
+                <div class="tw-card rv">
+                    <img class="tw-card-img" src="assets/img/community/ss-shadihub.jpeg" alt="Shadi hub.pk – 9-Scene AI Storyboard" loading="lazy">
+                </div>
+
+                <!-- Text: Learning Progress -->
+                <div class="tw-card rv">
+                    <div class="tw-card-body">
+                        <div class="tw-card-user">
+                            <div class="tw-card-avatar" style="background:#14b8a6;">A</div>
+                            <div>
+                                <div class="tw-card-name">Andrea Dolci</div>
+                                <div class="tw-card-handle">Member · AI Bootcamp</div>
+                            </div>
+                        </div>
+                        <p class="tw-card-text">The amount of things I'm learning is incredible! Every time I open the app I find myself knowing new stuff 🎯 I'm so grateful for this! Thank you guys @team 🙏</p>
+                        <div class="tw-card-footer">
+                            <span class="tw-card-meta">👍 6</span>
+                            <span class="tw-card-meta">💬 8 comments</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Screenshot: Community Overview (Dark Grid) -->
+                <div class="tw-card rv">
+                    <img class="tw-card-img" src="assets/img/community/ss-overview.jpeg" alt="AI Bootcamp Community – Student Work Showcase" loading="lazy">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Before vs After Section -->
+    <section class="sec" style="background:var(--bg2)">
+        <div class="si ctr">
+            <span class="slabel rv">The Transformation</span>
+            <h2 class="stitle rv">Stop Watching AI Videos Go Viral.<br>Start Making Them.</h2>
+            <p class="ssub rv">Here is the exact shift you will experience when you join the bootcamp and apply these skills.</p>
+            
+            <div class="tf-grid">
+                <!-- Before Card -->
+                <div class="tf-card before rv">
+                    <h3 class="tf-card-title"><span>✗</span> Before Joining</h3>
+                    <ul class="tf-list">
+                        <li class="tf-item">
+                            <span class="tf-icon">✗</span>
+                            <span>Overwhelmed by dozens of AI tools with no idea which ones are actually worth using.</span>
+                        </li>
+                        <li class="tf-item">
+                            <span class="tf-icon">✗</span>
+                            <span>Your AI-generated characters look obviously fake, deformed, or plastic-like.</span>
+                        </li>
+                        <li class="tf-item">
+                            <span class="tf-icon">✗</span>
+                            <span>Wasting hours writing long, complicated prompts only to get mediocre results.</span>
+                        </li>
+                        <li class="tf-item">
+                            <span class="tf-icon">✗</span>
+                            <span>Trying to learn alone from random, outdated YouTube videos with no feedback.</span>
+                        </li>
+                        <li class="tf-item">
+                            <span class="tf-icon">✗</span>
+                            <span>No clue how to find or close high-paying international clients who pay in Dollars.</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- After Card -->
+                <div class="tf-card after rv">
+                    <h3 class="tf-card-title"><span>✓</span> After Joining</h3>
+                    <ul class="tf-list">
+                        <li class="tf-item">
+                            <span class="tf-icon">✓</span>
+                            <span>You know the exact 2-tool workflow that professionals use to save time and money.</span>
+                        </li>
+                        <li class="tf-item">
+                            <span class="tf-icon">✓</span>
+                            <span>Creating hyper-realistic AI characters that look 100% human and fool everyone.</span>
+                        </li>
+                        <li class="tf-item">
+                            <span class="tf-icon">✓</span>
+                            <span>Using the 7-Pillar Prompt Formula to generate masterpiece images in seconds.</span>
+                        </li>
+                        <li class="tf-item">
+                            <span class="tf-icon">✓</span>
+                            <span>Getting daily feedback and answers in minutes from our private Skool community.</span>
+                        </li>
+                        <li class="tf-item">
+                            <span class="tf-icon">✓</span>
+                            <span>Step-by-step guidance to land your first paying brand retainer in 24 hours.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec" id="modules">
+        <div class="si">
+            <span class="slabel rv">The Curriculum</span>
+            <h2 class="stitle rv">9 Modules. Zero Fluff.<br>Everything You Need.</h2>
+            <p class="ssub rv">One character. One campaign. One complete AI business, built step by step across 9
+                modules.</p>
+            <div class="mod-wrap rv">
+
+                <div class="mod-item">
+                    <div class="mod-num-col">
+                        <div class="mod-num">01</div>
+                    </div>
+                    <div class="mod-body">
+                        <div class="mod-title">Getting Started: Your AI Studio Setup in 10 Minutes</div>
+                        <div class="mod-hook">Everything you need to start creating professional AI content today. Free
+                            tools. Zero tech skills required. You'll be generating in under 10 minutes.</div>
+                        <div class="mod-bullets">
+                            <div class="mod-bullet">The secret free tool that replaces $90/month of subscriptions</div>
+                            <div class="mod-bullet">The exact 2-tool workflow that professionals use, and nothing else
+                            </div>
+                            <div class="mod-bullet">Why 90% of beginners waste money on the wrong tools (avoid this)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mod-item">
+                    <div class="mod-num-col">
+                        <div class="mod-num">02</div>
+                    </div>
+                    <div class="mod-body">
+                        <div class="mod-title">How to Prompt Like a Pro: The Formula Worth $10,000</div>
+                        <div class="mod-hook">One formula. Every professional AI image. This is the exact system that
+                            separates $5 results from $5,000 results. Takes 10 minutes to learn.</div>
+                        <div class="mod-bullets">
+                            <div class="mod-bullet">The 7-pillar prompt formula. Break it down, use it forever.</div>
+                            <div class="mod-bullet">Type "a woman" vs type this formula. See the difference live.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mod-item">
+                    <div class="mod-num-col">
+                        <div class="mod-num">03</div>
+                    </div>
+                    <div class="mod-body">
+                        <div class="mod-title">Create Your Ultra-Realistic AI Character. So Real It Fools Everyone.
+                        </div>
+                        <div class="mod-hook">Build a photorealistic AI character that nobody, not designers, not
+                            clients, not followers, can tell is AI. This single skill is worth thousands per month.
+                        </div>
+                        <div class="mod-bullets">
+                            <div class="mod-bullet">The skin texture secret that makes AI look 100% human</div>
+                            <div class="mod-bullet">Studio-quality lighting without a studio, camera, or photographer
+                            </div>
+                            <div class="mod-bullet">Create your brand character, influencer, or client avatar in one
+                                session</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mod-item">
+                    <div class="mod-num-col">
+                        <div class="mod-num">04</div>
+                    </div>
+                    <div class="mod-body">
+                        <div class="mod-title">Full Control: Same Face, Any Country, Any Brand, Any Look</div>
+                        <div class="mod-hook">Your character can be placed anywhere in the world: New York, Dubai, Bali,
+                            Switzerland, without ever changing their face. Change backgrounds, outfits, and lighting
+                            independently.</div>
+                        <div class="mod-bullets">
+                            <div class="mod-bullet">Change the background without touching the face, ever</div>
+                            <div class="mod-bullet">Swap outfits, adjust lighting, change seasons independently</div>
+                            <div class="mod-bullet">One character. Infinite looks. Irreplaceable to every brand that
+                                hires you.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mod-item">
+                    <div class="mod-num-col">
+                        <div class="mod-num">05</div>
+                    </div>
+                    <div class="mod-body">
+                        <div class="mod-title">Product Placement: Agencies Charge $2,000 For This. You Do It in 5
+                            Minutes.</div>
+                        <div class="mod-hook">Drop any product: perfume, skincare, phone, clothing, into your
+                            character's hands with perfect shadows and matched lighting. $2,000 studio quality in 5
+                            minutes of your time.</div>
+                        <div class="mod-bullets">
+                            <div class="mod-bullet">Any product, any brand, placed into any scene with perfect realism
+                            </div>
+                            <div class="mod-bullet">The lighting match trick that makes it look like a real studio shoot
+                            </div>
+                            <div class="mod-bullet">Deliver 20 product images per hour. Charge $500 to $900 per set.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mod-item">
+                    <div class="mod-num-col">
+                        <div class="mod-num">06</div>
+                    </div>
+                    <div class="mod-body">
+                        <div class="mod-title">Animate It: Cinematic Video That Production Houses Charge $5,000 For
+                        </div>
+                        <div class="mod-hook">Your still image now moves. Professional camera push, pan, zoom. Cinematic
+                            depth and motion. The kind of brand video that costs $5,000 to produce, delivered in under 5
+                            minutes.</div>
+                        <div class="mod-bullets">
+                            <div class="mod-bullet">Slow push-in, dramatic pan, smooth zoom. Pro camera moves in one
+                                click.</div>
+                            <div class="mod-bullet">The motion trick that makes any video look cinematic and premium
+                            </div>
+                            <div class="mod-bullet">One student charged $2,200 per video from international brands</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mod-item">
+                    <div class="mod-num-col">
+                        <div class="mod-num">07</div>
+                    </div>
+                    <div class="mod-body">
+                        <div class="mod-title">Make It Talk: AI Voice and Lip Sync. Your Character Sells Without You
+                            Speaking.</div>
+                        <div class="mod-hook">Add a real human AI voice. Perfect lip sync. Your character speaks,
+                            promotes, and sells. None of it is real. Brands pay $500 to $3,000 per talking ad. You
+                            deliver one in 30 minutes.</div>
+                        <div class="mod-bullets">
+                            <div class="mod-bullet">100+ human AI voices: any language, any accent, any tone</div>
+                            <div class="mod-bullet">Automatic perfect lip sync. No manual editing, no recording needed.
+                            </div>
+                            <div class="mod-bullet">Result: $1,800 for 3 talking ads delivered in 4 hours total</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mod-item">
+                    <div class="mod-num-col">
+                        <div class="mod-num">08</div>
+                    </div>
+                    <div class="mod-body">
+                        <div class="mod-title">Build a Faceless AI Influencer. No Face. No Camera. $3,000 to
+                            $20,000/Month.</div>
+                        <div class="mod-hook">Combine Modules 3 to 7 into a complete running faceless AI influencer
+                            page. No face shown. No filming. No camera needed. Create 30 days of content in one
+                            afternoon and monetize it every month.</div>
+                        <div class="mod-bullets">
+                            <div class="mod-bullet">The niche formula that gets brand deals without millions of
+                                followers</div>
+                            <div class="mod-bullet">30 days of content created in one afternoon, auto-posted</div>
+                            <div class="mod-bullet">Brand deal pitch templates. The exact messages that close deals.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mod-item">
+                    <div class="mod-num-col">
+                        <div class="mod-num">09</div>
+                    </div>
+                    <div class="mod-body">
+                        <div class="mod-title">Get Paid: 14 Income Streams Ranked from Easiest to Highest</div>
+                        <div class="mod-hook">Every income path ranked. The exact message that lands a client in 24
+                            hours. How to charge $500 to $5,000 without being rejected. The retainer system for
+                            predictable monthly income.</div>
+                        <div class="mod-bullets">
+                            <div class="mod-bullet">14 income streams: from your first $100 to $10,000 per month</div>
+                            <div class="mod-bullet">The direct DM that got students a client response in 24 hours</div>
+                            <div class="mod-bullet">Monthly retainer system. One client pays you every month, on
+                                autopilot.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mod-bonus">
+                    <span class="mod-bonus-badge">🎁 FREE BONUS</span>
+                    <div class="mod-bonus-text">
+                        <strong>Client Acquisition Ebook: Land Your First Paying Client in 24 Hours.</strong>
+                        The exact outreach DM, pricing scripts, and step-by-step 24-hour client method that students
+                        used to land their first paid project without Upwork, Fiverr, or cold calling. Works for
+                        freelancers, agencies, and complete beginners. Worth $49. Included free with every enrollment.
+                    </div>
+                </div>
+
+            </div>
+            <div class="icta rv"><a href="/checkout" class="btn-big">Enroll Now →</a></div>
+        </div>
+    </section>
+
+    <section class="sec" style="background:var(--bg2)">
+        <div class="si">
+            <span class="slabel rv">One Skill. Everything You Can Build.</span>
+            <h2 class="stitle rv">By the End of This Course,<br>You Will Be Able To:</h2>
+            <p class="ssub rv">Complete this course and you'll have a real, sellable, in-demand skill. Here is exactly
+                what you'll be able to create, sell, and earn from immediately after finishing.</p>
+            <div class="skill-grid">
+                <div class="sk rv">
+                    <div class="sk-icon">🎬</div>
+                    <div class="sk-title">Cinematic AI Ad Videos</div>
+                    <div class="sk-earn">$500 to $2,000 per project</div>
+                    <div class="sk-desc">Create a full cinematic brand video from a single photo, with professional
+                        camera movements and motion effects. Looks like a $5,000 studio production. Takes 30 minutes.
+                    </div>
+                </div>
+                <div class="sk rv">
+                    <div class="sk-icon">🧑‍🎤</div>
+                    <div class="sk-title">Faceless AI Influencer Page</div>
+                    <div class="sk-earn">$2,000 to $15,000/month</div>
+                    <div class="sk-desc">Build a faceless Instagram or TikTok page powered entirely by AI content. No
+                        face, no camera, no filming. Brand deals, affiliate income, sponsorships, all on autopilot.
+                    </div>
+                </div>
+                <div class="sk rv">
+                    <div class="sk-icon">🗣️</div>
+                    <div class="sk-title">Talking UGC Ad Creator</div>
+                    <div class="sk-earn">$500 to $5,000 per campaign</div>
+                    <div class="sk-desc">Create talking AI character ads for brands. The character speaks, promotes, and
+                        sells the product. The #1 most in-demand creative service for global brands right now.</div>
+                </div>
+                <div class="sk rv">
+                    <div class="sk-icon">🖼️</div>
+                    <div class="sk-title">AI Product Photography</div>
+                    <div class="sk-earn">$300 to $900 per package</div>
+                    <div class="sk-desc">Deliver complete product photo sets for brands: perfect lighting, realistic
+                        shadows, any environment. 20 images in a single afternoon. No studio. No photographer needed.
+                    </div>
+                </div>
+                <div class="sk rv">
+                    <div class="sk-icon">📺</div>
+                    <div class="sk-title">YouTube Faceless Channel</div>
+                    <div class="sk-earn">$3,000 to $20,000/month</div>
+                    <div class="sk-desc">A full YouTube channel: AI voiceover, AI visuals, AI editing. Zero time on
+                        camera. Earn from ads, sponsorships, and affiliate links month after month passively.</div>
+                </div>
+                <div class="sk rv">
+                    <div class="sk-icon">🤖</div>
+                    <div class="sk-title">Sell Your Own AI Products</div>
+                    <div class="sk-earn">Passive income. Earn while you sleep.</div>
+                    <div class="sk-desc">Create and sell prompt packs, presets, and AI templates. List once on Gumroad
+                        or Etsy and earn from thousands of buyers worldwide forever without any extra work.</div>
+                </div>
+                <div class="sk rv">
+                    <div class="sk-icon">🌐</div>
+                    <div class="sk-title">Sell to International Clients</div>
+                    <div class="sk-earn">No Upwork. No portfolio.</div>
+                    <div class="sk-desc">Use the direct client method from the bonus ebook to land US and European
+                        brands. Get paid in USD or AED directly to your bank account from your bedroom.</div>
+                </div>
+                <div class="sk rv">
+                    <div class="sk-icon">📱</div>
+                    <div class="sk-title">Monthly Brand Retainers</div>
+                    <div class="sk-earn">$1,000 to $5,000/month per client</div>
+                    <div class="sk-desc">Sign one brand on a monthly content contract. Deliver AI reels, product ads,
+                        and influencer visuals every month. 2 to 3 retainers = consistent full-time income.</div>
+                </div>
+            </div>
+            <div class="incl-pills rv">
+                <div class="ip">✓ 50 Ready-to-Use AI Prompts</div>
+                <div class="ip">✓ Secret Cost Hack: saves $70+/month</div>
+                <div class="ip">✓ GCC Payment & Invoicing Guide</div>
+                <div class="ip">✓ Free Client Acquisition Ebook</div>
+                <div class="ip">✓ WhatsApp Support Group</div>
+            </div>
+            <div class="icta rv"><a href="/checkout" class="btn-big">Enroll Now →</a></div>
+            <p style="text-align:center;font-size:12px;color:var(--muted);margin-top:10px">Courses like this sell for
+                $1,000+ abroad. You earn it back on your first project.</p>
+        </div>
+    </section>
+
+    <section class="sec">
+        <div class="si ctr">
+            <span class="slabel rv">Real Proof It Works</span>
+            <h2 class="stitle rv">Public AI Creator Accounts.<br>Built With These Exact Skills.</h2>
+            <p class="ssub rv">Examples of public accounts built using AI content creation techniques taught in this
+                course. <strong style="color:var(--or);font-size:0.85em">*Earnings are estimates based on follower count
+                    &amp; typical brand deal rates — not verified income.</strong></p>
+            <div class="pages-grid">
+                <a href="https://www.instagram.com/evadelonne/" target="_blank" class="pgc rv">
+                    <div class="pg-plat">Instagram</div>
+                    <div class="pg-handle">@evadelonne</div>
+                    <div class="pg-followers">1.4M</div>
+                    <div class="pg-earn">$15,000 to $32,000/month</div>
+                    <div class="pg-desc">100% AI-generated lifestyle persona. No real person. No studio. This is Module
+                        7 built live. Brand deals flowing in every week.</div>
+                    <div class="pg-cta">View Profile ↗</div>
+                </a>
+                <a href="https://www.instagram.com/zilla.nis/" target="_blank" class="pgc rv">
+                    <div class="pg-plat">Instagram</div>
+                    <div class="pg-handle">@zilla.nis</div>
+                    <div class="pg-followers">2.8M</div>
+                    <div class="pg-earn">$25,000 to $55,000/month</div>
+                    <div class="pg-desc">Faceless AI content creator. Cinematic reels, AI visuals. No face, no camera,
+                        no studio. Every post is AI. Every follower is real.</div>
+                    <div class="pg-cta">View Profile ↗</div>
+                </a>
+                <a href="https://www.instagram.com/sylviavane0204" target="_blank" class="pgc rv">
+                    <div class="pg-plat">Instagram</div>
+                    <div class="pg-handle">@sylviavane0204</div>
+                    <div class="pg-followers">920K</div>
+                    <div class="pg-earn">$10,000 to $22,000/month</div>
+                    <div class="pg-desc">AI lifestyle and fashion influencer. Consistent AI character across every post.
+                        Brand deals monthly. Built using the exact skills in this course.</div>
+                    <div class="pg-cta">View Profile ↗</div>
+                </a>
+                <a href="https://www.instagram.com/withninarose" target="_blank" class="pgc rv">
+                    <div class="pg-plat">Instagram</div>
+                    <div class="pg-handle">@withninarose</div>
+                    <div class="pg-followers">1.6M</div>
+                    <div class="pg-earn">$18,000 to $40,000/month</div>
+                    <div class="pg-desc">AI creative content monetized through brand partnerships. Zero filming. Zero
+                        camera. Pure AI skill. You build this in Module 7 of this course.</div>
+                    <div class="pg-cta">View Profile ↗</div>
+                </a>
+                <a href="https://www.tiktok.com/@briefedhistory" target="_blank" class="pgc rv">
+                    <div class="pg-plat">TikTok</div>
+                    <div class="pg-handle">@briefedhistory</div>
+                    <div class="pg-followers">5.2M</div>
+                    <div class="pg-earn">$28,000 to $65,000/month</div>
+                    <div class="pg-desc">Faceless TikTok channel. AI voiceover, AI visuals, AI editing. No camera, no
+                        face, no filming. 5.2M people follow an AI account daily.</div>
+                    <div class="pg-cta">View Profile ↗</div>
+                </a>
+                <a href="https://www.tiktok.com/@unlocked_logic" target="_blank" class="pgc rv">
+                    <div class="pg-plat">TikTok</div>
+                    <div class="pg-handle">@unlocked_logic</div>
+                    <div class="pg-followers">3.4M</div>
+                    <div class="pg-earn">$20,000 to $45,000/month</div>
+                    <div class="pg-desc">Fully automated AI TikTok. No filming. No face shown. Zero manual editing. 3.4M
+                        followers from AI content anyone can create after this course.</div>
+                    <div class="pg-cta">View Profile ↗</div>
+                </a>
+            </div>
+            <p style="font-size:11px;color:var(--muted);margin-top:14px;text-align:center">*All earnings shown for
+                public accounts are estimates based on follower count, engagement rate, and typical brand deal rates.
+                These are not verified figures and are not typical results for students of this course. Individual
+                results vary significantly. Most students earn significantly less or nothing.</p>
+            <div class="icta rv" style="margin-top:32px"><a href="/checkout" class="btn-big">Enroll Now →</a></div>
+        </div>
+    </section>
+
+    <section class="sec" style="background:var(--bg2)">
+        <div class="si">
+            <span class="slabel rv ctr">Why This Course</span>
+            <h2 class="stitle rv ctr">What Others Charge vs What You Get</h2>
+            <p class="ssub rv ctr">Creators abroad pay hundreds for individual pieces of what's bundled inside here at
+                launch price.</p>
+            <div class="cmp-grid">
+                <div class="cmp-col rv">
+                    <div class="cmp-head bad">Without This Course</div>
+                    <div class="cmp-body">
+                        <div class="cmp-row">
+                            <div class="ci ci-rd">✗</div>
+                            <div class="cmp-t">Pay $70+/month for AI tools separately with no guidance on which to use
+                            </div>
+                        </div>
+                        <div class="cmp-row">
+                            <div class="ci ci-rd">✗</div>
+                            <div class="cmp-t">Spend months finding the right workflow through painful trial and error
+                            </div>
+                        </div>
+                        <div class="cmp-row">
+                            <div class="ci ci-rd">✗</div>
+                            <div class="cmp-t">Buy multiple courses for $200 to $1,000+ just to get the full picture
+                            </div>
+                        </div>
+                        <div class="cmp-row">
+                            <div class="ci ci-rd">✗</div>
+                            <div class="cmp-t">No payment setup guidance for the GCC market. Most people get stuck
+                                guessing.</div>
+                        </div>
+                        <div class="cmp-row">
+                            <div class="ci ci-rd">✗</div>
+                            <div class="cmp-t">No support. Completely stuck by yourself when things go wrong</div>
+                        </div>
+                        <div class="cmp-row">
+                            <div class="ci ci-rd">✗</div>
+                            <div class="cmp-t">Compete for pennies on Upwork and Fiverr against thousands of others
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cmp-col rv">
+                    <div class="cmp-head good">With AIBootcamp</div>
+                    <div class="cmp-body">
+                        <div class="cmp-row">
+                            <div class="ci ci-gn">✓</div>
+                            <div class="cmp-t">Get ALL tools for almost nothing. The secret cost hack is inside Module
+                                1.</div>
+                        </div>
+                        <div class="cmp-row">
+                            <div class="ci ci-gn">✓</div>
+                            <div class="cmp-t">Clear 90-day roadmap from day one. You always know exactly what to do
+                                next.</div>
+                        </div>
+                        <div class="cmp-row">
+                            <div class="ci ci-gn">✓</div>
+                            <div class="cmp-t">Everything in one place. Courses abroad charge $500 to $1,000 for one
+                                piece</div>
+                        </div>
+                        <div class="cmp-row">
+                            <div class="ci ci-gn">✓</div>
+                            <div class="cmp-t">Full GCC payment setup & invoicing guide: Stripe, Wise, and bank setup covered.</div>
+                        </div>
+                        <div class="cmp-row">
+                            <div class="ci ci-gn">✓</div>
+                            <div class="cmp-t">Active WhatsApp support group. Daily help from the team and students.
+                            </div>
+                        </div>
+                        <div class="cmp-row">
+                            <div class="ci ci-gn">✓</div>
+                            <div class="cmp-t">Direct client method. Premium rates, no platforms, no price competition
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec">
+        <div class="si">
+            <span class="slabel rv ctr">Student Results</span>
+            <h2 class="stitle rv ctr">Student Examples.*</h2>
+
+            <div class="testi-pages rv" id="testiPages">
+                <div class="testi-page active" id="tp-0">
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"Honestly, when I joined the course, I didn't even know what AI really stood for. After Module 7, I created a faceless Instagram page. Daily AI content—no face, no camera. Within 9 weeks, a UK fashion brand DM'd me and offered a £1,200 sponsored deal. When the payment landed in my account, I couldn't believe my eyes."</p>
+                        <div class="tc-earn te-or">💰 £1,200 UK brand deal, week 9</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-or">A</div>
+                            <div>
+                                <div class="tc-name">Ahmed K.</div>
+                                <div class="tc-loc">Dubai</div>
+                            </div><span class="tc-tag tt-or">AI Influencer</span>
+                        </div>
+                    </div>
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"I used the DM template from the ebook to message 20 US brands. A Canadian supplement brand replied. I created 5 AI talking ads: generated character, English voiceover, perfect lip sync. They sent $1,800 to my account. The next month, they ordered again for $2,400. I'm sitting here in Riyadh earning directly from Canada."</p>
+                        <div class="tc-earn te-bl">💰 $1,800 → $2,400 Canadian brand, 2 months</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-bl">U</div>
+                            <div>
+                                <div class="tc-name">Usman T.</div>
+                                <div class="tc-loc">Riyadh</div>
+                            </div><span class="tc-tag tt-bl">UGC Ads</span>
+                        </div>
+                    </div>
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"After learning Modules 4 and 5, I pitched a 30-day AI content package to a US skincare brand: reels, posts, story templates, all generated by AI. They paid $650 upfront. This was my first international client payment. In the second month, they reached out again and renewed the retainer for $750."</p>
+                        <div class="tc-earn te-gn">💰 $650 first · $750 renewed US skincare brand</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-gn">S</div>
+                            <div>
+                                <div class="tc-name">Sana R.</div>
+                                <div class="tc-loc">Abu Dhabi</div>
+                            </div><span class="tc-tag tt-gn">Content Retainer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-page" id="tp-1">
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"A real estate developer in Dubai needed a property showcase video. I used Module 6 to create a cinematic video: AI characters, professional voiceover, and custom camera movements. Their previous agency had charged AED 8,000 for something subpar. I charged $900 and delivered in 2 days. Now they hire me for every new property launch."</p>
+                        <div class="tc-earn te-pu">💰 $900/video Dubai real estate, ongoing</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-pu">B</div>
+                            <div>
+                                <div class="tc-name">Bilal A.</div>
+                                <div class="tc-loc">Doha</div>
+                            </div><span class="tc-tag tt-pu">Cinematic Video</span>
+                        </div>
+                    </div>
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"I manage a faceless AI influencer account for a US fitness brand: 30 posts a month, AI character, branded reels. They pay $1,100/month. I have 3 clients like this now. Combined $3,200/month, all from my laptop in Sharjah. No meetings. No calls. Just DMs and deliveries."</p>
+                        <div class="tc-earn te-or">💰 $3,200/month 3 US brand retainers</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-or">Z</div>
+                            <div>
+                                <div class="tc-name">Zara M.</div>
+                                <div class="tc-loc">Sharjah</div>
+                            </div><span class="tc-tag tt-or">AI Influencer Mgmt</span>
+                        </div>
+                    </div>
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"I started a faceless YouTube channel using Module 8: AI voiceover, AI visuals, no camera. Two videos a week. Within 4 months, I got monetized. Now I get YouTube AdSense and two US sponsors. Last month alone, I made $4,100 from one channel. Now I'm building a second channel using the exact same system."</p>
+                        <div class="tc-earn te-bl">💰 $4,100 last month faceless YouTube</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-bl">K</div>
+                            <div>
+                                <div class="tc-name">Kamran M.</div>
+                                <div class="tc-loc">Dubai</div>
+                            </div><span class="tc-tag tt-bl">Faceless YouTube</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-page" id="tp-2">
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"I cold pitched a UK ecommerce brand: 30 days of AI content including posts, reels, and story templates. They sent £800 upfront. I delivered everything in 5 days. They then signed a 3-month contract at £750/month. That's £2,250 from just one client, all starting from a single DM."</p>
+                        <div class="tc-earn te-gn">💰 £2,250 3-month UK ecommerce contract</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-gn">R</div>
+                            <div>
+                                <div class="tc-name">Raza H.</div>
+                                <div class="tc-loc">Kuwait City</div>
+                            </div><span class="tc-tag tt-gn">Ecommerce Content</span>
+                        </div>
+                    </div>
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"I used to design logos for just 100 AED. After this course, I started pitching AI cinematic brand videos to US and European brands. Now, every project closes between $700 and $1,200. Same work, same effort, but completely different clients and income. An 8x increase in just 2 months."</p>
+                        <div class="tc-earn te-or">💰 $1,200/project, US and European brands</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-or">I</div>
+                            <div>
+                                <div class="tc-name">Irfan B.</div>
+                                <div class="tc-loc">Riyadh</div>
+                            </div><span class="tc-tag tt-or">Brand Videos</span>
+                        </div>
+                    </div>
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"I pitched a monthly AI content retainer to a US fitness brand: 30 reels, talking ads, and influencer posts. They pay $1,400/month. This retainer has been running for 5 months now. I've already made $7,000 from this single client and I'm scaling up to 5 clients."</p>
+                        <div class="tc-earn te-bl">💰 $7,000 from one client, 5 months</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-bl">F</div>
+                            <div>
+                                <div class="tc-name">Farhan Q.</div>
+                                <div class="tc-loc">Abu Dhabi</div>
+                            </div><span class="tc-tag tt-bl">Content Retainer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-page" id="tp-3">
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"Our agency added AI creative services as a premium tier. Within 6 weeks, we signed a 3-month content contract with a UK fashion brand: AI reels, talking ads, and influencer posts. We received $5,800 upfront. This single deal was more than our agency's entire previous quarter. The actual work took only 2 weeks."</p>
+                        <div class="tc-earn te-or">💰 $5,800 3-month UK agency contract</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-or">A</div>
+                            <div>
+                                <div class="tc-name">Ayesha N.</div>
+                                <div class="tc-loc">Riyadh</div>
+                            </div><span class="tc-tag tt-or">Agency</span>
+                        </div>
+                    </div>
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"I am a final-year student. Using the course, I built a portfolio of AI talking ads, faceless reels, and brand videos. A US supplement brand found me on Instagram and offered $1,500/month for ongoing content. I've been earning in USD for 6 months while studying full-time. My friends can't believe it when they see my account balance."</p>
+                        <div class="tc-earn te-pu">💰 $1,500/month, US brand, 6 months running</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-pu">A</div>
+                            <div>
+                                <div class="tc-name">Ali Z.</div>
+                                <div class="tc-loc">Dubai</div>
+                            </div><span class="tc-tag tt-pu">Student</span>
+                        </div>
+                    </div>
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"I charge $1,800 per full AI campaign package: cinematic brand video, 30-day content calendar, talking UGC ads, and influencer reels. Currently, I have 4 active international clients. Last month, I earned $7,200. My family used to think I was wasting time on my laptop, but now I cover major household bills."</p>
+                        <div class="tc-earn te-gn">💰 $7,200 last month, 4 international clients</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-gn">S</div>
+                            <div>
+                                <div class="tc-name">Sara L.</div>
+                                <div class="tc-loc">Dubai</div>
+                            </div><span class="tc-tag tt-gn">Full Package</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-page" id="tp-4">
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"I sent a free sample talking ad to 20 Instagram brands. Three replied. An Australian skincare brand paid $480 for 4 ads. I used that as a case study and closed a US brand for $750 the following week. That was $1,230 in my first 10 days. The ebook method definitely works."</p>
+                        <div class="tc-earn te-or">💰 $1,230 first 10 days, free sample method</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-or">H</div>
+                            <div>
+                                <div class="tc-name">Hamza Y.</div>
+                                <div class="tc-loc">Dubai</div>
+                            </div><span class="tc-tag tt-or">UGC Ads</span>
+                        </div>
+                    </div>
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"I created an AI travel page, and within 10 weeks, it reached 18,000 followers: daily AI content, no filming. A German travel brand paid €900 for a sponsored campaign, and a US luggage brand paid $1,100. Now I have 3 active sponsors and the page is not even 6 months old."</p>
+                        <div class="tc-earn te-bl">💰 €900 + $1,100 two international sponsors</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-bl">N</div>
+                            <div>
+                                <div class="tc-name">Nida F.</div>
+                                <div class="tc-loc">Abu Dhabi</div>
+                            </div><span class="tc-tag tt-bl">AI Influencer</span>
+                        </div>
+                    </div>
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"I pitched a US food delivery app on a 30-day AI content trial. They paid $550 for the trial month. After seeing the engagement they signed a 6-month contract at $900/month. That is $5,400 from one client I found through a single cold DM. All payments sent directly to my account here in Muscat."</p>
+                        <div class="tc-earn te-gn">💰 $5,400 6-month contract from one DM</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-gn">M</div>
+                            <div>
+                                <div class="tc-name">Maira S.</div>
+                                <div class="tc-loc">Muscat</div>
+                            </div><span class="tc-tag tt-gn">Content Retainer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-page" id="tp-5">
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"I manage social media for 4 international fitness brands: AI workout reels, transformation posts, and motivational content. Each brand pays $600/month. That's a total of $2,400/month. I only spend about 3 hours a week per client. The entire workflow is from Modules 4 and 5. No meetings for months—everything is handled over DMs."</p>
+                        <div class="tc-earn te-pu">💰 $2,400/month 4 international fitness brands</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-pu">T</div>
+                            <div>
+                                <div class="tc-name">Talha R.</div>
+                                <div class="tc-loc">Riyadh</div>
+                            </div><span class="tc-tag tt-pu">Content Retainer</span>
+                        </div>
+                    </div>
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"At 19, while studying for my A-levels, I created a faceless TikTok channel: AI voiceovers, AI visuals, no filming. In 9 weeks, I reached 22,000 followers. A US mobile accessories brand gave me an $800 sponsored 3-video series, followed by a UK tech brand for $950. Showing my earnings to my family definitely eased the exam pressure."</p>
+                        <div class="tc-earn te-or">💰 $800 + $950, two brand deals at 19</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-or">A</div>
+                            <div>
+                                <div class="tc-name">Areesha K.</div>
+                                <div class="tc-loc">Dubai</div>
+                            </div><span class="tc-tag tt-or">Faceless TikTok</span>
+                        </div>
+                    </div>
+                    <div class="tc">
+                        <div class="tc-stars">★★★★★</div>
+                        <p class="tc-text">"I sent a free 7-day content trial to 10 US ecommerce brands. Two replied. One signed a $750/month retainer. Using that testimonial, I closed the second at $900/month and the third at $800/month. Within 60 days, I secured $2,450/month from three clients. It all started with cold DMs."</p>
+                        <div class="tc-earn te-bl">💰 $2,450/month 3 US ecommerce retainers</div>
+                        <div class="tc-foot">
+                            <div class="tc-av av-bl">O</div>
+                            <div>
+                                <div class="tc-name">Omar J.</div>
+                                <div class="tc-loc">Manama</div>
+                            </div><span class="tc-tag tt-bl">Content Retainer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-pager">
+                <button class="tp-btn" id="tpPrev" onclick="changeTp(-1)">←</button>
+                <div class="tp-dots" id="tpDots"></div>
+                <button class="tp-btn" id="tpNext" onclick="changeTp(1)">→</button>
+            </div>
+            <div style="text-align:center;margin-top:8px"><span class="tp-label" id="tpLabel">Page 1 of 6</span></div>
+            <div class="icta rv" style="margin-top:36px"><a href="/checkout" class="btn-big">Enroll Now →</a></div>
+            <p
+                style="font-size:11px;color:var(--muted);text-align:center;margin-top:16px;max-width:640px;margin-left:auto;margin-right:auto;">
+                *Testimonials represent individual experiences. Results are not typical. Names used with permission or
+                changed for privacy. Most students earn significantly less or nothing.</p>
+        </div>
+    </section>
+
+    <section class="sec" style="background:var(--bg2)">
+        <div class="si ctr">
+            <span class="slabel rv">Made For</span>
+            <h2 class="stitle rv">This Will Change Your Life If You Are...</h2>
+            <div class="who-grid">
+                <div class="wc rv">
+                    <div class="wc-icon">🎯</div>
+                    <div class="wc-title">A Complete Beginner</div>
+                    <div class="wc-desc">Zero experience. If you can use WhatsApp, you can complete this and start
+                        applying the skills within 30 days of finishing. <em
+                            style="font-size:0.85em;opacity:0.7">(income results vary)</em></div>
+                </div>
+                <div class="wc rv">
+                    <div class="wc-icon">💼</div>
+                    <div class="wc-title">A Freelancer</div>
+                    <div class="wc-desc">Add AI skills, charge $500 to $3,000 per project instead of competing for
+                        pennies on Upwork and Fiverr.</div>
+                </div>
+                <div class="wc rv">
+                    <div class="wc-icon">🏢</div>
+                    <div class="wc-title">A Business Owner</div>
+                    <div class="wc-desc">Stop paying agencies. Create your own cinematic ads, influencer content and
+                        brand videos yourself for almost nothing.</div>
+                </div>
+                <div class="wc rv">
+                    <div class="wc-icon">🌍</div>
+                    <div class="wc-title">Anyone Wanting Dollars</div>
+                    <div class="wc-desc">AI creative is the #1 skill global brands are paying for right now. Get in
+                        before it gets saturated.</div>
+                </div>
+                <div class="wc rv">
+                    <div class="wc-icon">🎓</div>
+                    <div class="wc-title">A Student</div>
+                    <div class="wc-desc">Earn from your bedroom while studying. Multiple students in this course earn
+                        more than their parents at their jobs.</div>
+                </div>
+                <div class="wc rv">
+                    <div class="wc-icon">🚀</div>
+                    <div class="wc-title">A Creator or Influencer</div>
+                    <div class="wc-desc">Scale your content without showing your face, without a camera, without a team.
+                        AI does the heavy lifting.</div>
+                </div>
+            </div>
+            <div class="icta rv"><a href="/checkout" class="btn-big">Enroll Now →</a></div>
+        </div>
+    </section>
+
+
+    <section class="sec" style="background:var(--bg2)">
+        <div class="si" style="max-width:740px">
+            <span class="slabel rv ctr">Still Have Questions?</span>
+            <h2 class="stitle rv ctr">FAQ</h2>
+            <div class="faq-list">
+                <div class="faq-item"><button class="faq-q">Do I need any experience?<span
+                            class="faq-icon">+</span></button>
+                    <div class="faq-a">
+                        <div class="faq-ai">Zero. If you can use WhatsApp, you can complete this course. It starts from
+                            absolute zero. No AI knowledge, no design background, no tech skills required. You'll be
+                            generating your first professional AI image in Module 1, before it even ends.</div>
+                    </div>
+                </div>
+                <div class="faq-item"><button class="faq-q">What can I realistically earn in my first 30 days?<span
+                            class="faq-icon">+</span></button>
+                    <div class="faq-a">
+                        <div class="faq-ai">Realistically, $500 to $2,000 in your first 30 to 60 days if you follow the
+                            course and use the ebook client method. Students have hit 300 AED in week one, $800 from
+                            a US client in 3 weeks, and $1,500/month within 60 days. Results depend on effort, but the
+                            skill is real and the demand is massive.</div>
+                    </div>
+                </div>
+                <div class="faq-item"><button class="faq-q">Why is this only 50 AED?<span
+                            class="faq-icon">+</span></button>
+                    <div class="faq-a">
+                        <div class="faq-ai">This is a launch price for the first 300 students only. 297 are already
+                            enrolled. We want early students who will get results, share feedback, and grow with us.
+                            After 300 students, the price goes permanently to 350 AED. No exceptions, no discount
+                            codes after that.</div>
+                    </div>
+                </div>
+                <div class="faq-item"><button class="faq-q">Do I need to show my face?<span
+                            class="faq-icon">+</span></button>
+                    <div class="faq-a">
+                        <div class="faq-ai">Never. Every income stream in this course is 100% faceless. You create AI
+                            characters, AI influencer profiles, AI videos, without ever showing yourself on camera.
+                            Module 7 specifically teaches how to build a complete faceless AI influencer from scratch.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item"><button class="faq-q">What is the bonus client acquisition ebook?<span
+                            class="faq-icon">+</span></button>
+                    <div class="faq-a">
+                        <div class="faq-ai">It's a step-by-step guide to finding and closing clients for your AI
+                            creative services, without using Upwork, Fiverr, or any platform. It includes the exact
+                            outreach message that has gotten students responses within hours, a pricing guide, and a
+                            closing script for beginners with no portfolio. Included free with every enrollment and
+                            updated regularly.</div>
+                    </div>
+                </div>
+                <div class="faq-item"><button class="faq-q">How do I get paid by international clients?<span
+                            class="faq-icon">+</span></button>
+                    <div class="faq-a">
+                        <div class="faq-ai">Module 8 (Get Paid) includes a complete payment and invoicing guide for GCC creators,
+                            covering Stripe, Payoneer, Wise, and bank transfers. Multiple students are already
+                            receiving payments from US and European clients. This is fully covered inside the
+                            course.</div>
+                    </div>
+                </div>
+                <div class="faq-item"><button class="faq-q">How do I get access after paying?<span
+                            class="faq-icon">+</span></button>
+                    <div class="faq-a">
+                        <div class="faq-ai">Click "Enroll Now", fill out the checkout form, and complete your payment securely on Stripe (supporting credit card and Apple Pay). You will be instantly redirected to the success page and receive access details in your email.</div>
+                    </div>
+                </div>
+                <div class="faq-item"><button class="faq-q">Is the price really going up after 300 students?<span
+                            class="faq-icon">+</span></button>
+                    <div class="faq-a">
+                        <div class="faq-ai">Yes, absolutely. This is not a fake urgency tactic. The launch price is for
+                            the first 300 students only. 297 have already enrolled. Once we hit 300, the price moves to
+                            350 AED permanently. If you're reading this, spots are still available. Act now.</div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center;margin-top:28px">
+                <p style="font-size:13px;color:var(--muted);margin-bottom:16px">Chat with us on WhatsApp. We reply fast.
+                </p>
+                <a href="/checkout" class="btn-big">Enroll Now →</a>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="sec"
+        style="padding:40px 28px;background:linear-gradient(135deg,rgba(249,115,22,.06),var(--bg),rgba(76,140,228,.06))">
+        <div class="si ctr">
+            <div class="still-thinking rv">
+                <div class="st-badge">STILL THINKING ABOUT IT?</div>
+                <h3 class="st-title">Every day you wait is a day someone else takes your client.</h3>
+                <a href="/checkout" class="btn-big">Enroll Now →</a>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="sec" style="padding:52px 28px;background:var(--bg2);border-top:1px solid var(--border)">
+        <div class="si ctr">
+            <div class="ig-strip rv">
+                <div class="ig-icon">📸</div>
+                <div class="ig-text">
+                    <div class="ig-title">See Our AI Creatives in Action</div>
+                    <div class="ig-sub">Follow us on Instagram to see exactly what you will be creating after this
+                        course.</div>
+                </div>
+                <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center">
+                    <a href="https://www.instagram.com/aivideobootcamppk" target="_blank" class="btn-ig">Instagram
+                        @aivideobootcamppk →</a>
+                    <a href="https://www.facebook.com/Aivideobootcamppk" target="_blank" class="btn-ig"
+                        style="background:linear-gradient(135deg,#1877f2,#0d5ebc)">Facebook →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="fcta">
+        <div class="fcta-bg"></div>
+        <div class="fcta-orb"></div>
+        <div class="fcta-inner">
+            <h2 class="fcta-title" style="font-family: 'Outfit', sans-serif; font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.1; margin-bottom: 15px;">This summer,<br>either scroll it<br>or <em style="color: var(--or); font-style: normal;">build</em> it.</h2>
+            <p class="final-subtitle" style="font-size: clamp(1.2rem, 3vw, 1.8rem); margin: 15px 0 25px; color: #fdba74; text-align: center;">Your Decision · Your Future</p>
+            <a href="/checkout" class="btn-big">Enroll Now →</a>
+            <p style="margin-top:14px;font-size:12px;color:var(--muted)">Only 3 spots left at this price · Lifetime access ·
+                Private community</p>
+        </div>
+    </section>
+
+    <script>
+        'use strict';
+
+        function copyText(id, btn) {
+            const el = document.getElementById(id);
+            if (!el) return;
+            const text = el.textContent.trim();
+            const done = () => { btn.textContent = '✓ Copied!'; btn.classList.add('copied'); setTimeout(() => { btn.textContent = '📋'; btn.classList.remove('copied'); }, 2000); };
+            if (navigator.clipboard) { navigator.clipboard.writeText(text).then(done).catch(() => { }); }
+            else { const ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); done(); }
+        }
+
+        // Progress bar
+        const prog = document.getElementById('prog');
+        const maxScroll = () => document.body.scrollHeight - window.innerHeight;
+        window.addEventListener('scroll', () => { prog.style.width = Math.min(window.scrollY / maxScroll() * 100, 100) + '%'; }, { passive: true });
+
+        // Sticky CTA visibility handler for Mobile
+        const stickyBar = document.getElementById('stickyCtaBar');
+        if (stickyBar) {
+            // Start hidden at top of page
+            stickyBar.classList.add('hidden');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 300) {
+                    stickyBar.classList.remove('hidden');
+                } else {
+                    stickyBar.classList.add('hidden');
+                }
+            }, { passive: true });
+        }
+
+        // Scroll reveal
+        const rvObs = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('vis'); rvObs.unobserve(e.target); } });
+        }, { threshold: 0.06, rootMargin: '0px 0px -24px 0px' });
+        document.querySelectorAll('.rv').forEach(el => rvObs.observe(el));
+
+        // Module stagger
+        const mods = Array.from(document.querySelectorAll('.mod-item'));
+        mods.forEach(m => { m.style.cssText += 'opacity:0;transform:translateX(-20px);transition:opacity .45s ease,transform .45s cubic-bezier(.22,.68,0,1.2)'; });
+        const mObs = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    const i = mods.indexOf(e.target);
+                    setTimeout(() => { e.target.style.opacity = '1'; e.target.style.transform = 'translateX(0)'; }, i * 55);
+                    mObs.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.07 });
+        mods.forEach(m => mObs.observe(m));
+
+        // FAQ
+        document.querySelectorAll('.faq-q').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const item = btn.parentElement;
+                const isOpen = item.classList.contains('open');
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+                if (!isOpen) item.classList.add('open');
+            });
+        });
+
+
+        // Testimonial pagination
+        let currentTp = 0;
+        const totalTp = 6;
+        const tpDotsEl = document.getElementById('tpDots');
+        const tpLabel = document.getElementById('tpLabel');
+
+        function buildDots() {
+            if (!tpDotsEl) return;
+            tpDotsEl.innerHTML = '';
+            for (let i = 0; i < totalTp; i++) {
+                const d = document.createElement('div');
+                d.className = 'tp-dot' + (i === 0 ? ' active' : '');
+                d.onclick = () => goTp(i);
+                tpDotsEl.appendChild(d);
+            }
+        }
+
+        function goTp(idx) {
+            document.getElementById('tp-' + currentTp).classList.remove('active');
+            currentTp = (idx + totalTp) % totalTp;
+            document.getElementById('tp-' + currentTp).classList.add('active');
+            document.querySelectorAll('.tp-dot').forEach((d, i) => d.classList.toggle('active', i === currentTp));
+            if (tpLabel) tpLabel.textContent = 'Page ' + (currentTp + 1) + ' of ' + totalTp;
+        }
+
+        function changeTp(dir) { goTp(currentTp + dir); }
+        buildDots();
+
+
+        // Ripple
+        document.querySelectorAll('.btn-p,.btn-big,.btn-wa,.btn-nav').forEach(btn => {
+            btn.addEventListener('click', function (e) {
+                const r = this.getBoundingClientRect();
+                const size = Math.max(r.width, r.height);
+                const el = document.createElement('span');
+                el.className = 'rpl-el';
+                Object.assign(el.style, { width: size + 'px', height: size + 'px', left: (e.clientX - r.left - size / 2) + 'px', top: (e.clientY - r.top - size / 2) + 'px' });
+                this.appendChild(el);
+                setTimeout(() => el.remove(), 600);
+            });
+        });
+
+        // Parallax orbs (desktop only)
+        if (window.innerWidth > 900) {
+            const o1 = document.querySelector('.h-orb1');
+            const o2 = document.querySelector('.h-orb2');
+            window.addEventListener('scroll', () => {
+                const y = window.scrollY;
+                if (o1) o1.style.transform = `translate(${y * .05}px,${y * .08}px)`;
+                if (o2) o2.style.transform = `translate(${-y * .04}px,${y * .06}px)`;
+            }, { passive: true });
+        }
+
+        // Floating particles (desktop only)
+        if (window.innerWidth > 900) {
+            const pColors = ['#F97316', '#4C8CE4', '#8B5CF6'];
+            const pStyle = document.createElement('style');
+            pStyle.textContent = '@keyframes pfloat{0%{transform:translateY(0)translateX(0);opacity:0}10%{opacity:0.5}90%{opacity:0.2}100%{transform:translateY(-100vh)translateX(var(--drift,0px));opacity:0}}';
+            document.head.appendChild(pStyle);
+            setInterval(() => {
+                const p = document.createElement('div');
+                const size = 2 + Math.random() * 2;
+                const dur = 6000 + Math.random() * 8000;
+                p.style.cssText = `position:fixed;border-radius:50%;pointer-events:none;z-index:1;width:${size}px;height:${size}px;background:${pColors[Math.floor(Math.random() * 3)]};left:${Math.random() * window.innerWidth}px;bottom:-10px;opacity:0;animation:pfloat ${dur}ms linear forwards`;
+                p.style.setProperty('--drift', ((Math.random() - .5) * 100) + 'px');
+                document.body.appendChild(p);
+                setTimeout(() => p.remove(), dur + 600);
+            }, 1200);
+        }
+
+        // Hero stats counter
+        function animateValue(el, end, prefix, suffix, duration) {
+            const start = performance.now();
+            const tick = now => {
+                const ease = 1 - Math.pow(1 - Math.min((now - start) / duration, 1), 3);
+                el.textContent = prefix + Math.round(end * ease).toLocaleString() + suffix;
+                if (ease < 1) requestAnimationFrame(tick);
+            };
+            requestAnimationFrame(tick);
+        }
+
+        const hstats = document.querySelectorAll('.hs-n');
+        let hsDone = false;
+        const hsObs = new IntersectionObserver(entries => {
+            if (entries[0].isIntersecting && !hsDone) {
+                hsDone = true;
+                [{ n: 15, pre: '$', suf: 'K' }, { n: 9, pre: '', suf: '' }, { n: 2, pre: '', suf: ' Hrs' }, { n: 50, pre: '', suf: ' AED' }].forEach((d, i) => {
+                    if (hstats[i]) setTimeout(() => animateValue(hstats[i], d.n, d.pre, d.suf, 1400), i * 120 + 600);
+                });
+            }
+        }, { threshold: 0.6 });
+        if (hstats.length) hsObs.observe(hstats[0].closest('.hero') || document.body);
+
+        // AI Clips Slider Navigation & Lazy Loading & Auto-Rotation
+        (function() {
+            const track = document.getElementById('sliderTrack');
+            const prevBtn = document.getElementById('slidePrev');
+            const nextBtn = document.getElementById('slideNext');
+            
+            if (!track || !prevBtn || !nextBtn) return;
+            
+            function getScrollAmount() {
+                const firstCard = track.querySelector('.slider-card');
+                if (!firstCard) return 300;
+                return firstCard.offsetWidth + 16;
+            }
+            
+            // Toggle visibility of navigation buttons
+            function toggleButtons() {
+                const maxScrollLeft = track.scrollWidth - track.clientWidth;
+                prevBtn.style.opacity = track.scrollLeft <= 5 ? '0.4' : '1';
+                prevBtn.style.pointerEvents = track.scrollLeft <= 5 ? 'none' : 'auto';
+                
+                nextBtn.style.opacity = track.scrollLeft >= maxScrollLeft - 5 ? '0.4' : '1';
+                nextBtn.style.pointerEvents = track.scrollLeft >= maxScrollLeft - 5 ? 'none' : 'auto';
+            }
+            
+            track.addEventListener('scroll', toggleButtons);
+            setTimeout(toggleButtons, 500);
+            window.addEventListener('resize', toggleButtons);
+
+            // Auto-sliding engine
+            let autoSlideInterval = null;
+            let resumeTimeout = null;
+
+            function startAutoSlide() {
+                if (autoSlideInterval) return;
+                autoSlideInterval = setInterval(() => {
+                    const maxScrollLeft = track.scrollWidth - track.clientWidth;
+                    if (track.scrollLeft >= maxScrollLeft - 5) {
+                        track.scrollTo({ left: 0, behavior: 'smooth' });
+                    } else {
+                        track.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
+                    }
+                }, 3500);
+            }
+
+            function stopAutoSlide() {
+                if (autoSlideInterval) {
+                    clearInterval(autoSlideInterval);
+                    autoSlideInterval = null;
+                }
+                if (resumeTimeout) {
+                    clearTimeout(resumeTimeout);
+                    resumeTimeout = null;
+                }
+            }
+
+            function requestResumeAutoSlide(delay = 4000) {
+                if (resumeTimeout) clearTimeout(resumeTimeout);
+                resumeTimeout = setTimeout(() => {
+                    startAutoSlide();
+                }, delay);
+            }
+
+            // Start auto-rotation on load
+            startAutoSlide();
+
+            // Interactivity: pause on hover (desktop), resume on leave
+            track.addEventListener('mouseenter', stopAutoSlide);
+            track.addEventListener('mouseleave', () => startAutoSlide());
+
+            // Interactivity: pause on touch (mobile), resume after delay when touch ends
+            track.addEventListener('touchstart', stopAutoSlide, { passive: true });
+            track.addEventListener('touchend', () => requestResumeAutoSlide(4000), { passive: true });
+
+            // Button controls
+            prevBtn.addEventListener('click', () => {
+                stopAutoSlide();
+                track.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
+                requestResumeAutoSlide(5000);
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                stopAutoSlide();
+                track.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
+                requestResumeAutoSlide(5000);
+            });
+
+            // Lazy loading & performance optimization using high-reliability hybrid scroll tracker
+            const videos = track.querySelectorAll('.slider-video');
+            track.style.position = 'relative'; // Guarantee offsetParent is the track container
+
+            function updateVideoSources() {
+                const trackLeft = track.scrollLeft;
+                const trackRight = trackLeft + track.clientWidth;
+                const buffer = 150; // 150px look-ahead/look-behind horizontal buffer
+
+                videos.forEach(video => {
+                    const card = video.closest('.slider-card');
+                    if (!card) return;
+
+                    const cardLeft = card.offsetLeft;
+                    const cardRight = cardLeft + card.offsetWidth;
+
+                    // Calculate overlap with visible viewport + buffer
+                    const isHorizontallyVisible = (cardRight >= trackLeft - buffer) && (cardLeft <= trackRight + buffer);
+
+                    if (isHorizontallyVisible) {
+                        if (!video.src || video.src === '') {
+                            const dataSrc = video.getAttribute('data-src');
+                            if (dataSrc) {
+                                video.src = dataSrc;
+                                video.load();
+                            }
+                        }
+                        video.play().catch(err => {
+                            // Autoplay blocked
+                        });
+                    } else {
+                        if (video.src) {
+                            video.pause();
+                            video.removeAttribute('src'); // Unload and release decoder resources
+                            video.load();
+                        }
+                    }
+                });
+            }
+
+            // Vertical IntersectionObserver on parent viewport to suspend slider videos when page is scrolled away
+            const viewportObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        track.addEventListener('scroll', updateVideoSources);
+                        window.addEventListener('resize', updateVideoSources);
+                        updateVideoSources();
+                    } else {
+                        track.removeEventListener('scroll', updateVideoSources);
+                        window.removeEventListener('resize', updateVideoSources);
+                        // Suspension: Pause and unload all videos when offscreen vertically to conserve CPU & Battery
+                        videos.forEach(video => {
+                            if (video.src) {
+                                video.pause();
+                                video.removeAttribute('src');
+                                video.load();
+                            }
+                        });
+                    }
+                });
+            }, {
+                rootMargin: '200px 0px 200px 0px', // Trigger vertically slightly before slider enters the screen
+                threshold: 0.05
+            });
+
+            // Observe the viewport container
+            const viewportEl = track.closest('.slider-viewport') || track;
+            viewportObserver.observe(viewportEl);
+        })();
+    </script>
+
+    <!-- Social Proof System -->
+    <div id="sp-notify" class="sp-notify">
+        <div class="sp-icon">
+            <svg viewBox="0 0 24 24" fill="white" width="18" height="18">
+                <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+            </svg>
+        </div>
+        <div class="sp-content"></div>
+    </div>
+
+
+
+    <script>
+        (function () {
+            const spData = [
+                { n: "Ahmed", c: "Dubai", t: "2 minutes" },
+                { n: "Zain", c: "Abu Dhabi", t: "5 minutes" },
+                { n: "Mustafa", c: "Riyadh", t: "8 minutes" },
+                { n: "Ali", c: "Manama", t: "12 minutes" },
+                { n: "Hamza", c: "Doha", t: "15 minutes" },
+                { n: "Ayesha", c: "Kuwait City", t: "18 minutes" },
+                { n: "Sara", c: "Sharjah", t: "22 minutes" },
+                { n: "Bilal", c: "Muscat", t: "25 minutes" },
+                { n: "Hassan", c: "Ajman", t: "28 minutes" },
+                { n: "Usman", c: "Al Ain", t: "32 minutes" }
+            ];
+
+            const notify = document.getElementById('sp-notify');
+            const content = notify.querySelector('.sp-content');
+
+            function showSP() {
+                const item = spData[Math.floor(Math.random() * spData.length)];
+                content.innerHTML = `<strong>${item.n}</strong> from <strong class="city">${item.c}</strong> just joined the bootcamp.<span class="sp-time">${item.t} ago</span>`;
+                notify.classList.add('active');
+
+                setTimeout(() => {
+                    notify.classList.remove('active');
+                }, 6000);
+            }
+
+            setTimeout(showSP, 15000);
+            setInterval(showSP, 28000);
+        })();
+    </script>
+
+    <footer class="main-footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <a href="./" class="nav-logo"><span>AI</span>Bootcamp</a>
+                <p class="footer-tagline">Empowering the next generation of AI creatives in the GCC.</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AIBootcamp. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="/privacy">Privacy Policy</a>
+                    <a href="/terms">Terms of Service</a>
+                    <a href="https://www.instagram.com/aivideobootcamppk" target="_blank">Instagram</a>
+                    <a href="https://www.facebook.com/Aivideobootcamppk" target="_blank">Facebook</a>
+                    <a href="https://wa.me/923180298090" target="_blank">WhatsApp</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+
+    <a href="https://wa.me/923180298090" target="_blank" class="wa-float" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24" fill="white" width="28" height="28">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+        </svg>
+    </a>
+
+    <!-- Sticky CTA Bar for Mobile -->
+    <div class="sticky-cta-bar" id="stickyCtaBar">
+        <div class="sticky-cta-inner">
+            <div class="sticky-cta-text">
+                <span class="sticky-cta-price"><s style="color:#8890b8;font-weight:500;font-size:0.85rem;">350 AED</s> 50 AED</span>
+                <span class="sticky-cta-label">⚠️ Only 3 Spots Left!</span>
+            </div>
+            <a href="/checkout" class="sticky-cta-btn">Enroll Now →</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -59,7 +59,7 @@ module.exports = async (req, res) => {
         const tasks = [];
 
         // 1. Google Sheets Log (via Lead Webhook receiver)
-        const SHEETS_WEBHOOK = process.env.LEADS_SHEET_WEBHOOK || 'https://script.google.com/macros/s/AKfycbynwAaZLJrmDy2FZnuYf9wWqnQtMMm6CpTQdVDIi69gnP0mSpR0yz9QFGLUyYlwCJF2/exec';
+        const SHEETS_WEBHOOK = process.env.LEADS_SHEET_WEBHOOK || 'https://script.google.com/macros/s/AKfycbwuCZ6yD1Mi_ywgyP3sEdY0ZQdIbpcLY2wFsU___6C9EXqMeT70Wbxw_Ep6O5f4dnMf/exec';
         if (SHEETS_WEBHOOK) {
             const sheetData = {
                 "Conversion Time": new Date().toLocaleString('en-US', { timeZone: 'Asia/Dubai' }) + ' (GST)',
@@ -92,7 +92,7 @@ module.exports = async (req, res) => {
         }
 
         // 2. Meta Conversions API (CAPI) Purchase Event
-        const META_PIXEL_ID = process.env.META_PIXEL_ID || '1622955485439618';
+        const META_PIXEL_ID = process.env.META_PIXEL_ID || '1537120838114830';
         const META_ACCESS_TOKEN = process.env.META_ACCESS_TOKEN;
         
         if (META_ACCESS_TOKEN) {

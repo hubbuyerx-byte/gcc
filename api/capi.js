@@ -13,9 +13,9 @@ module.exports = async (req, res) => {
     const { event_name, event_id, event_source_url, user_data = {}, custom_data = {} } = req.body;
     
     // Config
-    const META_PIXEL_ID = process.env.META_PIXEL_ID || '1622955485439618';
+    const META_PIXEL_ID = process.env.META_PIXEL_ID || '1537120838114830';
     const META_ACCESS_TOKEN = process.env.META_ACCESS_TOKEN;
-    const SHEETS_WEBHOOK = process.env.LEADS_SHEET_WEBHOOK || 'https://script.google.com/macros/s/AKfycbynwAaZLJrmDy2FZnuYf9wWqnQtMMm6CpTQdVDIi69gnP0mSpR0yz9QFGLUyYlwCJF2/exec';
+    const SHEETS_WEBHOOK = process.env.LEADS_SHEET_WEBHOOK || 'https://script.google.com/macros/s/AKfycbwuCZ6yD1Mi_ywgyP3sEdY0ZQdIbpcLY2wFsU___6C9EXqMeT70Wbxw_Ep6O5f4dnMf/exec';
     
     // Helper: SHA256 hashing
     const hash = (val) => {

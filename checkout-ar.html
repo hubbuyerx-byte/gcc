@@ -159,8 +159,12 @@
                 <input type="text" id="inp-city" placeholder="المدينة (مثال: دبي)" autocomplete="address-level2">
             </div>
 
+            <button class="btn-reveal" onclick="submitToStripe()" style="margin-top: 1.25rem;">
+                🔐 ادفع بأمان عبر البطاقة / Apple Pay ←
+            </button>
+
             <!-- Order Bump -->
-            <div class="order-bump" id="orderBumpContainer" onclick="toggleOrderBump(event)">
+            <div class="order-bump" id="orderBumpContainer" onclick="toggleOrderBump(event)" style="margin-top: 1.5rem;">
                 <div class="order-bump-header">
                     <input type="checkbox" id="bump-check" class="order-bump-checkbox" onchange="handleBumpChange(event)">
                     <span class="order-bump-badge">ترقية خاصة</span>
@@ -184,10 +188,6 @@
                     <span class="order-bump-price">+ 49 درهم إماراتي (السعر المعتاد 150 درهماً)</span>
                 </div>
             </div>
-
-            <button class="btn-reveal" onclick="submitToStripe()">
-                🔐 ادفع بأمان عبر البطاقة / Apple Pay ←
-            </button>
         </div>
 
         <!-- Trust Review Widget (Mobile Only - positioned right below the CTA button) -->

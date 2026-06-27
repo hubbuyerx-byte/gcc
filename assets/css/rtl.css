@@ -68,3 +68,25 @@ ul, ol {
 .sticky-cta-container {
     flex-direction: row-reverse !important;
 }
+
+/* User Handles & Hashtag Bidi fixes */
+.pg-handle, .work-post-title {
+    direction: ltr !important;
+    unicode-bidi: embed !important;
+}
+.work-post-title {
+    text-align: right !important;
+}
+
+/* Hero Avatars RTL Overlap adjustments */
+.hero-avatars {
+    flex-direction: row-reverse !important;
+}
+.hero-avatar {
+    margin-left: 0 !important;
+    margin-right: -10px !important;
+}
+.hero-avatar:first-child {
+    margin-right: 0 !important;
+}
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مرحباً بك في الأكاديمية! | بوتكامب فيديو الذكاء الاصطناعي</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:image" content="assets/img/og-image.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body, h1, h2, h3, p, span, a, div {
+            font-family: 'Cairo', 'Inter', sans-serif !important;
+        }
+    </style>
+
+    <!-- Google Tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18059473078"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-18059473078');
+    </script>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/success.css">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+    
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1537120838114830');
+    </script>
+    <!-- TikTok Pixel Code -->
+    <script>
+    !function (w, d, t) {
+      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+    var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+    ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+      ttq.load('D825I1JC77U9B8E8SBI0');
+      ttq.page();
+    }(window, document, 'ttq');
+    </script>
+    <script src="assets/js/capi-bridge.js?v=1.0.5"></script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1537120838114830&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const val = parseFloat(urlParams.get('val') || '50'); // default to 50 AED if missing
+            const transactionId = urlParams.get('session_id') || ('pur_' + Date.now());
+
+            // 1. CAPI Bridge (Handles Meta & TikTok Browser + Server)
+            if (window.CAPIBridge) {
+                CAPIBridge.pageView();
+                // Fire Purchase event with value, currency (AED), and transaction ID
+                CAPIBridge.purchase(val, 'AED', transactionId, 'stripe');
+            }
+
+            // 2. Google Ads Conversion (Browser)
+            if (window.gtag) {
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-18059473078/V_n0CO6-mKYaELblsqk-',
+                     'value': val,
+                     'currency': 'AED',
+                     'transaction_id': transactionId
+                });
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="container success-page">
+        <div class="success-icon">✅</div>
+        <h1 class="text-gradient" style="font-size: 3rem;">أهلاً بك معنا يا بطل!</h1>
+        <p style="font-size: 1.25rem; color: #94a3b8; max-width: 700px; margin: 1rem auto;">تمت عملية الدفع بنجاح وتأكيد حجز مقعدك. يرجى التحقق من بريدك الإلكتروني للحصول على دعوة المجتمع الخاص وتفاصيل بوابة الدخول.</p>
+        
+        <div class="bonus-box">
+            <h2 style="margin-bottom: 1rem;">🎁 هديتك الأولى</h2>
+            <p style="margin-bottom: 2rem;">يتم الآن إرسال كتاب "الحصول على العملاء" الإلكتروني إلى بريدك الإلكتروني وسوف يصل إلى صندوق الوارد الخاص بك قريباً.</p>
+            <span class="btn-primary" style="padding: 1rem 2rem; display: inline-block; cursor: default;">تحقق من بريدك الإلكتروني للحصول على الكتاب</span>
+        </div>
+
+        <div style="margin-top: 4rem;">
+            <p style="color: #64748b; margin-bottom: 1.5rem;">هل تحتاج إلى مساعدة؟ تواصل مع الدعم الفني مباشرة.</p>
+            <a href="mailto:support@aivideobootcamp.online" class="btn-outline">تواصل مع الدعم عبر البريد الإلكتروني</a>
+        </div>
+    </div>
+    <footer class="main-footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <a href="./" style="text-decoration:none; color:white; font-weight:800; font-size:1.5rem;"><span style="color:#10b981;">AI</span>Bootcamp</a>
+                <p class="footer-tagline">مرحباً بك في المجتمع. رحلتك تبدأ من هنا.</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 أكاديمية الذكاء الاصطناعي. جميع الحقوق محفوظة.</p>
+                <div class="footer-links">
+                    <a href="/privacy">سياسة الخصوصية</a>
+                    <a href="/terms">شروط الخدمة</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

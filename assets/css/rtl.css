@@ -1,0 +1,70 @@
+/* ── RTL (Right-to-Left) Stylesheet Overrides ── */
+
+body, h1, h2, h3, h4, h5, h6, p, span, button, a, input, select, textarea, div {
+    font-family: 'Cairo', 'Inter', sans-serif !important;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Form Inputs & Icons */
+input, select, textarea {
+    text-align: right;
+}
+
+/* Fix absolute position for checkmarks or icons inside text inputs */
+.input-with-icon {
+    position: relative;
+}
+.input-with-icon i {
+    right: auto !important;
+    left: 12px !important;
+}
+
+/* Checkboxes and custom selections */
+.bump-checkbox, .checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Align list items and dots */
+ul, ol {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+/* Ratings Facepile Overlaps - Reverse direction */
+.ratings-pile {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ratings-pile img {
+    margin-right: 0 !important;
+    margin-left: -12px !important;
+}
+.ratings-pile img:last-child {
+    margin-left: 0 !important;
+}
+
+/* Chevron & Arrows text adjustments */
+.arrow-right::after {
+    content: " ➔";
+    transform: scaleX(-1);
+    display: inline-block;
+}
+
+/* Review layout mirroring */
+.review-quote {
+    text-align: right;
+}
+.review-author {
+    justify-content: flex-start !important;
+}
+
+/* Sticky Urgency Bar bottom button */
+.sticky-cta-container {
+    flex-direction: row-reverse !important;
+}

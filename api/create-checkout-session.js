@@ -10,7 +10,7 @@ module.exports = async (req, res) => {
         return res.status(405).json({ error: 'Method not allowed' });
     }
 
-    const { name, email, phone, city, hasBump, hasMarketian, gclid, fbc, fbp, traffic_type } = req.body;
+    const { name, email, phone, city, hasBump, hasMarketian, gclid, fbc, fbp, traffic_type, lang } = req.body;
 
     if (!name || !email || !phone) {
         return res.status(400).json({ error: 'Missing required customer details (name, email, phone)' });
@@ -74,14 +74,17 @@ module.exports = async (req, res) => {
         const client_ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress || '';
         const user_agent = req.headers['user-agent'] || '';
 
+        const successPage = lang === 'ar' ? 'success-ar' : 'success';
+        const cancelPage = lang === 'ar' ? 'checkout-ar' : 'checkout';
+
         // 2. Create Stripe Checkout Session
         const session = await stripe.checkout.sessions.create({
             payment_method_types: ['card'],
             mode: 'payment',
             customer_email: email,
             line_items: lineItems,
-            success_url: `${baseUrl}/success?session_id={CHECKOUT_SESSION_ID}&val=${totalValue}`,
-            cancel_url: `${baseUrl}/checkout`,
+            success_url: `${baseUrl}/${successPage}?session_id={CHECKOUT_SESSION_ID}&val=${totalValue}`,
+            cancel_url: `${baseUrl}/${cancelPage}`,
             metadata: {
                 name: name,
                 phone: phone,

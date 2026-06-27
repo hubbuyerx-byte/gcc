@@ -95,11 +95,11 @@ window.CAPIBridge = (function () {
     captureGclid();
     captureTtclid();
 
-    function track(eventName, standardParams = {}, customParams = {}, userData = {}) {
+    function track(eventName, standardParams = {}, customParams = {}, userData = {}, overrideEventId = null) {
         // Event ID Locking: Reuse the same ID for the same event type in a session
         // This ensures Meta deduplicates accidental double-clicks or refreshes.
         const sessionKey = `meta_eid_${eventName.toLowerCase()}`;
-        let eventId = sessionStorage.getItem(sessionKey);
+        let eventId = overrideEventId || sessionStorage.getItem(sessionKey);
         let isNewEvent = false;
 
         if (!eventId) {
@@ -108,7 +108,12 @@ window.CAPIBridge = (function () {
             isNewEvent = true;
             console.log(`[CAPIBridge] Generated NEW ID for ${eventName}: ${eventId}`);
         } else {
-            console.log(`[CAPIBridge] Reusing LOCKED ID for ${eventName}: ${eventId} (browser pixel skipped)`);
+            if (overrideEventId) {
+                isNewEvent = true; // Always fire if explicitly overridden (e.g. Purchase session ID)
+                console.log(`[CAPIBridge] Using OVERRIDDEN ID for ${eventName}: ${eventId}`);
+            } else {
+                console.log(`[CAPIBridge] Reusing LOCKED ID for ${eventName}: ${eventId} (browser pixel skipped)`);
+            }
         }
 
         const trafficType = isAdTraffic() ? 'paid' : 'organic';
@@ -228,16 +233,17 @@ window.CAPIBridge = (function () {
                 value: 1999
             });
         },
-        purchase: function (method = 'whatsapp_click') {
+        purchase: function (value = 50, currency = 'AED', transactionId = null, method = 'stripe') {
             track('Purchase', {
                 content_name: 'AI Video Bootcamp',
+                content_category: 'Online Course',
                 content_ids: ['avb_001'],
                 content_type: 'product',
-                currency: 'PKR',
-                value: 1999
+                currency: currency,
+                value: parseFloat(value)
             }, {
                 payment_method: method
-            });
+            }, {}, transactionId);
         }
     };
 })();

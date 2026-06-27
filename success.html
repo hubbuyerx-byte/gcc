@@ -58,6 +58,8 @@
             // 1. CAPI Bridge (Handles Meta & TikTok Browser + Server)
             if (window.CAPIBridge) {
                 CAPIBridge.pageView();
+                // Fire Purchase event with value, currency (AED), and transaction ID
+                CAPIBridge.purchase(val, 'AED', transactionId, 'stripe');
             }
 
             // 2. Google Ads Conversion (Browser)

@@ -52,7 +52,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const urlParams = new URLSearchParams(window.location.search);
-            const val = parseFloat(urlParams.get('val') || '50'); // default to 50 AED if missing
+            const val = parseFloat(urlParams.get('val') || '49'); // default to 49 AED if missing
             const transactionId = urlParams.get('session_id') || ('pur_' + Date.now());
 
             // 1. CAPI Bridge (Handles Meta & TikTok Browser + Server)

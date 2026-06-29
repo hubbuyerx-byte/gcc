@@ -30,14 +30,14 @@ module.exports = async (req, res) => {
                         name: 'AI Video Bootcamp',
                         description: 'Learn AI Video Creation and Build a Creative Business',
                     },
-                    unit_amount: 5000, // 50.00 AED
+                    unit_amount: 4900, // 49.00 AED
                 },
                 quantity: 1,
             }
         ];
 
         let offersList = ['AI Video Bootcamp'];
-        let totalValue = 50;
+        let totalValue = 49;
 
         if (hasBump) {
             lineItems.push({
@@ -47,28 +47,12 @@ module.exports = async (req, res) => {
                         name: "AI Creator's Cheat Code Vault",
                         description: '50+ prompts, characters, and templates extension',
                     },
-                    unit_amount: 1500, // 15.00 AED
+                    unit_amount: 1900, // 19.00 AED
                 },
                 quantity: 1,
             });
             offersList.push("AI Creator's Vault");
-            totalValue += 15;
-        }
-
-        if (hasMarketian) {
-            lineItems.push({
-                price_data: {
-                    currency: 'aed',
-                    product_data: {
-                        name: 'Marketian: Complete Meta (Facebook) Ads Masterclass',
-                        description: 'Complete Facebook & Instagram Ads client acquisition system',
-                    },
-                    unit_amount: 4900, // 49.00 AED
-                },
-                quantity: 1,
-            });
-            offersList.push('Meta Ads Masterclass');
-            totalValue += 49;
+            totalValue += 19;
         }
 
         const client_ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress || '';
@@ -98,7 +82,7 @@ module.exports = async (req, res) => {
                 traffic_type: traffic_type || 'paid',
                 client_ip: client_ip,
                 user_agent: user_agent,
-                upsell_selected: (hasBump || hasMarketian) ? 'Yes' : 'No'
+                upsell_selected: hasBump ? 'Yes' : 'No'
             }
         });
 

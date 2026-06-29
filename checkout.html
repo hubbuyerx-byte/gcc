@@ -75,7 +75,7 @@
         <div class="badge">🚀 Launch Price — First 300 Students Only</div>
         <div class="price-block">
             <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
-                <div class="price-main" id="price-main">50 AED</div>
+                <div class="price-main" id="price-main">49 AED</div>
                 <div style="display: flex; align-items: center; gap: 8px;">
                     <div class="price-was">350 AED</div>
                     <span class="save-badge">Save 86%</span>
@@ -83,7 +83,7 @@
             </div>
             <p style="margin-top: 0.4rem;">One-time payment</p>
         </div>
-        <div class="roi-box">💡 50 AED for a skill set professionals charge $300–$2,000 per project for. <em style="font-size:0.82em;opacity:0.8">Individual income results vary.</em></div>
+        <div class="roi-box">💡 49 AED for a skill set professionals charge $300–$2,000 per project for. <em style="font-size:0.82em;opacity:0.8">Individual income results vary.</em></div>
 
         <div class="spots-bar-wrap">
             <div class="spots-labels">
@@ -111,7 +111,7 @@
         <!-- Trust Review Widget -->
         <div class="checkout-review desktop-only">
             <div class="review-stars">⭐⭐⭐⭐⭐</div>
-            <p class="review-quote">"Best 50 AED I've ever spent. The client outreach scripts alone got me a $150 client on WhatsApp in 3 days!"</p>
+            <p class="review-quote">"Best 49 AED I've ever spent. The client outreach scripts alone got me a $150 client on WhatsApp in 3 days!"</p>
             <div class="review-author">
                 <span>— Hamza from Dubai</span>
                 <span class="verified-badge">✓ Earning Verified</span>
@@ -129,7 +129,7 @@
                 <span class="save-badge">Save 86%</span>
             </div>
             <div class="mobile-summary-pricing">
-                <span id="price-mobile" class="price-mobile-val">50 AED</span>
+                <span id="price-mobile" class="price-mobile-val">49 AED</span>
                 <span class="price-was">350 AED</span>
             </div>
             <div class="mobile-summary-spots">
@@ -170,20 +170,7 @@
                 </div>
                 <div class="order-bump-desc">
                     Get 50+ hyper-realistic Midjourney prompts, 5 premade HD characters, client outreach scripts, and Fiverr/Upwork gig blueprints. Save 85% today!
-                    <span class="order-bump-price">+ 15 AED (Only 65 AED Total)</span>
-                </div>
-            </div>
-
-            <!-- Order Bump 2 (Marketian Course) -->
-            <div class="order-bump" id="marketianBumpContainer" onclick="toggleMarketianBump(event)" style="margin-top: 1rem;">
-                <div class="order-bump-header">
-                    <input type="checkbox" id="marketian-check" class="order-bump-checkbox" onchange="handleBumpChange(event)">
-                    <span class="order-bump-badge" style="background: #8b5cf6;">PREMIUM UPGRADE</span>
-                    <span class="order-bump-title">Add the Marketian: Complete Meta (Facebook) Ads Masterclass</span>
-                </div>
-                <div class="order-bump-desc">
-                    Get the complete step-by-step video course to master Facebook & Instagram Ads. Learn to setup profitable campaigns, write high-converting ad copy, find high-paying clients, and scale your agency. Save 80% today!
-                    <span class="order-bump-price">+ 49 AED (Usually 150 AED)</span>
+                    <span class="order-bump-price">+ 19 AED (Only 68 AED Total)</span>
                 </div>
             </div>
         </div>
@@ -191,7 +178,7 @@
         <!-- Trust Review Widget (Mobile Only - positioned right below the CTA button) -->
         <div class="checkout-review mobile-only">
             <div class="review-stars">⭐⭐⭐⭐⭐</div>
-            <p class="review-quote">"Best 50 AED I've ever spent. The client outreach scripts alone got me a $150 client on WhatsApp in 3 days!"</p>
+            <p class="review-quote">"Best 49 AED I've ever spent. The client outreach scripts alone got me a $150 client on WhatsApp in 3 days!"</p>
             <div class="review-author">
                 <span>— Hamza from Dubai</span>
                 <span class="verified-badge">✓ Earning Verified</span>
@@ -257,35 +244,19 @@
         handleBumpChange();
     }
 
-    function toggleMarketianBump(e) {
-        if (e.target.id === 'marketian-check') return;
-        const checkbox = document.getElementById('marketian-check');
-        if (checkbox) checkbox.checked = !checkbox.checked;
-        handleBumpChange();
-    }
-
     function handleBumpChange(e) {
         const bumpCheck = document.getElementById('bump-check');
-        const marketianCheck = document.getElementById('marketian-check');
         const bumpContainer = document.getElementById('orderBumpContainer');
-        const marketianContainer = document.getElementById('marketianBumpContainer');
         
         const hasBump = bumpCheck ? bumpCheck.checked : false;
-        const hasMarketian = marketianCheck ? marketianCheck.checked : false;
         
         if (bumpContainer) {
             if (hasBump) bumpContainer.classList.add('checked');
             else bumpContainer.classList.remove('checked');
         }
         
-        if (marketianContainer) {
-            if (hasMarketian) marketianContainer.classList.add('checked');
-            else marketianContainer.classList.remove('checked');
-        }
-        
-        let price = 50;
-        if (hasBump) price += 15;
-        if (hasMarketian) price += 49;
+        let price = 49;
+        if (hasBump) price += 19;
         
         const priceStr = price + " AED";
         
@@ -319,17 +290,12 @@
         btn.innerHTML = '<span style="display:flex;align-items:center;justify-content:center;gap:8px;"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" style="animation: spin 1s linear infinite;"><path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/></svg> Redirecting to secure payment...</span>';
 
         const hasBump = document.getElementById('bump-check').checked;
-        const hasMarketian = document.getElementById('marketian-check').checked;
         
-        let totalAmount = 50;
+        let totalAmount = 49;
         let offers = ['AI Video Bootcamp'];
         if (hasBump) {
-            totalAmount += 15;
+            totalAmount += 19;
             offers.push('AI Creator Vault');
-        }
-        if (hasMarketian) {
-            totalAmount += 49;
-            offers.push('Marketian Course');
         }
         
         const offerName = offers.join(' + ');
@@ -380,7 +346,7 @@
                 phone: phoneInput,
                 city: city || 'Not specified',
                 hasBump: hasBump,
-                hasMarketian: hasMarketian,
+                hasMarketian: false,
                 gclid: gclid,
                 fbc: fbc,
                 fbp: fbp,
